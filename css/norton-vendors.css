@@ -1,0 +1,6384 @@
+@font-face {
+	font-family: "Source Sans Pro Black";
+	src: url("../assets/fonts/SourceSansPro-Black/SourceSansPro-Black.html");
+	src: url("../assets/fonts/SourceSansPro-Black/SourceSansPro-Blackd41d.html?#iefix") format("embedded-opentype"), url("../assets/fonts/SourceSansPro-Black/SourceSansPro-Black-2.html") format("woff"), url("../assets/fonts/SourceSansPro-Black/SourceSansPro-Black-3.html") format("ttf"), url("../assets/fonts/SourceSansPro-Black/SourceSansPro-Black-4.html#SourceSansPro-Black") format("svg");
+}
+
+@font-face {
+	font-family: "Source Sans Pro Black Italic";
+	src: url("../assets/fonts/SourceSansPro-BlackItalic/SourceSansPro-BlackItalic.html");
+	src: url("../assets/fonts/SourceSansPro-BlackItalic/SourceSansPro-BlackItalicd41d.html?#iefix") format("embedded-opentype"), url("../assets/fonts/SourceSansPro-BlackItalic/SourceSansPro-BlackItalic-2.html") format("woff"), url("../assets/fonts/SourceSansPro-BlackItalic/SourceSansPro-BlackItalic-3.html") format("ttf"), url("../assets/fonts/SourceSansPro-BlackItalic/SourceSansPro-BlackItalic-4.html#SourceSansPro-BlackItalic") format("svg");
+}
+
+@font-face {
+	font-family: "Source Sans Pro Bold";
+	src: url("../assets/fonts/SourceSansPro-Bold/SourceSansPro-Bold.html");
+	src: url("../assets/fonts/SourceSansPro-Bold/SourceSansPro-Boldd41d.html?#iefix") format("embedded-opentype"), url("../assets/fonts/SourceSansPro-Bold/SourceSansPro-Bold-2.html") format("woff"), url("../assets/fonts/SourceSansPro-Bold/SourceSansPro-Bold-3.html") format("ttf"), url("../assets/fonts/SourceSansPro-Bold/SourceSansPro-Bold-4.html#SourceSansPro-Bold") format("svg");
+}
+
+@font-face {
+	font-family: "Source Sans Pro Bold Italic";
+	src: url("../assets/fonts/SourceSansPro-BoldItalic/SourceSansPro-BoldItalic.html");
+	src: url("../assets/fonts/SourceSansPro-BoldItalic/SourceSansPro-BoldItalicd41d.html?#iefix") format("embedded-opentype"), url("../assets/fonts/SourceSansPro-BoldItalic/SourceSansPro-BoldItalic-2.html") format("woff"), url("../assets/fonts/SourceSansPro-BoldItalic/SourceSansPro-BoldItalic-3.html") format("ttf"), url("../assets/fonts/SourceSansPro-BoldItalic/SourceSansPro-BoldItalic-4.html#SourceSansPro-BoldItalic") format("svg");
+}
+
+@font-face {
+	font-family: "Source Sans Pro Extra Light";
+	src: url("../assets/fonts/SourceSansPro-ExtraLight/SourceSansPro-ExtraLight.html");
+	src: url("../assets/fonts/SourceSansPro-ExtraLight/SourceSansPro-ExtraLightd41d.html?#iefix") format("embedded-opentype"), url("../assets/fonts/SourceSansPro-ExtraLight/SourceSansPro-ExtraLight-2.html") format("woff"), url("../assets/fonts/SourceSansPro-ExtraLight/SourceSansPro-ExtraLight-3.html") format("ttf"), url("../assets/fonts/SourceSansPro-ExtraLight/SourceSansPro-ExtraLight-4.html#SourceSansPro-ExtraLight") format("svg");
+}
+
+@font-face {
+	font-family: "Source Sans Pro Extra Light Italic";
+	src: url("../assets/fonts/SourceSansPro-ExtraLightItalic/SourceSansPro-ExtraLightItalic.html");
+	src: url("../assets/fonts/SourceSansPro-ExtraLightItalic/SourceSansPro-ExtraLightItalicd41d.html?#iefix") format("embedded-opentype"), url("../assets/fonts/SourceSansPro-ExtraLightItalic/SourceSansPro-ExtraLightItalic-2.html") format("woff"), url("../assets/fonts/SourceSansPro-ExtraLightItalic/SourceSansPro-ExtraLightItalic-3.html") format("ttf"), url("../assets/fonts/SourceSansPro-ExtraLightItalic/SourceSansPro-ExtraLightItalic-4.html#SourceSansPro-ExtraLightItalic") format("svg");
+}
+
+@font-face {
+	font-family: "Source Sans Pro Light";
+	src: url("../assets/fonts/SourceSansPro-Light/SourceSansPro-Light.html");
+	src: url("../assets/fonts/SourceSansPro-Light/SourceSansPro-Lightd41d.html?#iefix") format("embedded-opentype"), url("../assets/fonts/SourceSansPro-Light/SourceSansPro-Light-2.html") format("woff"), url("../assets/fonts/SourceSansPro-Light/SourceSansPro-Light-3.html") format("ttf"), url("../assets/fonts/SourceSansPro-Light/SourceSansPro-Light-4.html#SourceSansPro-Light") format("svg");
+}
+
+@font-face {
+	font-family: "Source Sans Pro Light Italic";
+	src: url("../assets/fonts/SourceSansPro-LightItalic/SourceSansPro-LightItalic.html");
+	src: url("../assets/fonts/SourceSansPro-LightItalic/SourceSansPro-LightItalicd41d.html?#iefix") format("embedded-opentype"), url("../assets/fonts/SourceSansPro-LightItalic/SourceSansPro-LightItalic-2.html") format("woff"), url("../assets/fonts/SourceSansPro-LightItalic/SourceSansPro-LightItalic-3.html") format("ttf"), url("../assets/fonts/SourceSansPro-LightItalic/SourceSansPro-LightItalic-4.html#SourceSansPro-LightItalic") format("svg");
+}
+
+@font-face {
+	font-family: "Source Sans Pro Regular";
+	src: url("../assets/fonts/SourceSansPro-Regular/SourceSansPro-Regular.html");
+	src: url("../assets/fonts/SourceSansPro-Regular/SourceSansPro-Regulard41d.html?#iefix") format("embedded-opentype"), url("../assets/fonts/SourceSansPro-Regular/SourceSansPro-Regular-2.html") format("woff"), url("../assets/fonts/SourceSansPro-Regular/SourceSansPro-Regular-3.html") format("ttf"), url("../assets/fonts/SourceSansPro-Regular/SourceSansPro-Regular-4.html#SourceSansPro-Regular") format("svg");
+}
+
+@font-face {
+	font-family: "Source Sans Pro Regular Italic";
+	src: url("../assets/fonts/SourceSansPro-RegularItalic/SourceSansPro-RegularItalic.html");
+	src: url("../assets/fonts/SourceSansPro-RegularItalic/SourceSansPro-RegularItalicd41d.html?#iefix") format("embedded-opentype"), url("../assets/fonts/SourceSansPro-RegularItalic/SourceSansPro-RegularItalic-2.html") format("woff"), url("../assets/fonts/SourceSansPro-RegularItalic/SourceSansPro-RegularItalic-3.html") format("ttf"), url("../assets/fonts/SourceSansPro-RegularItalic/SourceSansPro-RegularItalic-4.html#SourceSansPro-RegularItalic") format("svg");
+}
+
+@font-face {
+	font-family: "Source Sans Pro Semi Bold";
+	src: url("../assets/fonts/SourceSansPro-SemiBold/SourceSansPro-SemiBold.html");
+	src: url("../assets/fonts/SourceSansPro-SemiBold/SourceSansPro-SemiBoldd41d.html?#iefix") format("embedded-opentype"), url("../assets/fonts/SourceSansPro-SemiBold/SourceSansPro-SemiBold-2.html") format("woff"), url("../assets/fonts/SourceSansPro-SemiBold/SourceSansPro-SemiBold-3.html") format("ttf"), url("../assets/fonts/SourceSansPro-SemiBold/SourceSansPro-SemiBold-4.html#SourceSansPro-SemiBold") format("svg");
+}
+
+@font-face {
+	font-family: "Source Sans Pro Semi Bold Italic";
+	src: url("../assets/fonts/SourceSansPro-SemiBoldItalic/SourceSansPro-SemiBoldItalic.html");
+	src: url("../assets/fonts/SourceSansPro-SemiBoldItalic/SourceSansPro-SemiBoldItalicd41d.html?#iefix") format("embedded-opentype"), url("../assets/fonts/SourceSansPro-SemiBoldItalic/SourceSansPro-SemiBoldItalic-2.html") format("woff"), url("../assets/fonts/SourceSansPro-SemiBoldItalic/SourceSansPro-SemiBoldItalic-3.html") format("ttf"), url("../assets/fonts/SourceSansPro-SemiBoldItalic/SourceSansPro-SemiBoldItalic-4.html#SourceSansPro-SemiBoldItalic") format("svg");
+}
+
+body {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.a__first__headline {
+	font-family: "Source Sans Pro Light", sans-serif;
+	font-size: 3em;
+	font-weight: normal;
+	margin: 0;
+}
+
+.a__first__headline.is--marketing {
+	font-family: "Source Sans Pro Light", sans-serif;
+	font-size: 3em;
+	font-weight: 300;
+	line-height: 1.25;
+	color: #ffffff;
+	margin-bottom: 0;
+}
+
+@media (max-width: 767px) {
+	.a__first__headline.is--marketing {
+		font-size: 1.875em;
+	}
+}
+
+.a__second__headline {
+	font-family: "Source Sans Pro Light", sans-serif;
+	font-size: 1.875em;
+	font-weight: normal;
+	margin: 0;
+}
+
+.a__second__headline.is--marketing {
+	margin-top: 0;
+	font-family: "Source Sans Pro Light", sans-serif;
+	font-size: 2.25em;
+	font-weight: 300;
+	line-height: 1.29;
+	color: #ffffff;
+}
+
+@media (max-width: 767px) {
+	.a__second__headline.is--marketing {
+		font-size: 1.5em;
+	}
+}
+
+.a__third__headline {
+	font-family: "Source Sans Pro Light", sans-serif;
+	font-size: 1.5em;
+	font-weight: normal;
+	margin: 0;
+}
+
+.a__third__headline.is--marketing {
+	margin-top: 0;
+	font-size: 1.875em;
+	font-weight: 300;
+	line-height: 1.5;
+	color: #ffffff;
+}
+
+@media (max-width: 767px) {
+	.a__third__headline.is--marketing {
+		font-size: 1.25em;
+	}
+}
+
+.a__fourth__headline {
+	font-family: "Source Sans Pro Light", sans-serif;
+	font-size: 1.25em;
+	font-weight: normal;
+}
+
+.a__fifth__headline {
+	font-family: "Source Sans Pro Bold", sans-serif;
+	font-size: 1em;
+	font-weight: normal;
+}
+
+.a__sixth__headline {
+	font-family: "Source Sans Pro Bold", sans-serif;
+	font-size: 0.875em;
+	font-weight: normal;
+}
+
+.a__primary__paragraph {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+	font-size: 1em;
+	font-weight: normal;
+	margin: 0;
+}
+
+.a__primary__paragraph.is--marketing {
+	line-height: 1.88;
+	color: #ffffff;
+}
+
+@media (max-width: 767px) {
+	.a__primary__paragraph {
+		font-size: 0.875em;
+	}
+}
+
+.a__secondary__paragraph {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+	font-size: 0.875em;
+	font-weight: normal;
+}
+
+.a__secondary__paragraph.is--sm {
+	font-size: 0.75em;
+}
+
+.a__caption {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+	font-size: 0.6875em;
+	font-weight: normal;
+}
+
+.a__link {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+	color: #36ade1;
+	transition: color 300ms cubic-bezier(0.19, 1, 0.22, 1);
+	margin: 0;
+	cursor: pointer;
+}
+
+.a__link:hover {
+	color: #36ade1;
+	text-decoration: underline;
+}
+
+.a__link.is--white {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+
+.a__link.is--blue {
+	color: #70c6ec;
+}
+
+.a__link.is--grey {
+	color: #757575;
+}
+
+.a__link.is--bare {
+	text-decoration: none;
+}
+
+.a__link.is--marketing {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+	font-size: 1.125em;
+	line-height: 1.67;
+	color: #ffffff;
+	display: block;
+}
+
+@media (max-width: 767px) {
+	.a__link.is--marketing {
+		font-size: 1em;
+	}
+}
+
+.is--symc-sans-regular {
+	font-family: "Source Sans Pro Regular", sans-serif;
+	font-weight: normal;
+}
+
+.is--symc-sans-regular.is--italic {
+	font-family: "Source Sans Pro Regular Italic", sans-serif;
+	font-style: italic;
+}
+
+.is--symc-sans-light {
+	font-family: "Source Sans Pro Light", sans-serif;
+	font-weight: normal;
+}
+
+.is--symc-sans-light.is--italic {
+	font-family: "Source Sans Pro Light Italic", sans-serif;
+	font-style: italic;
+}
+
+.is--symc-sans-bold {
+	font-family: "Source Sans Pro Bold", sans-serif;
+	font-weight: normal;
+}
+
+.is--symc-sans-bold.is--italic {
+	font-family: "Source Sans Pro Bold Italic", sans-serif;
+	font-style: italic;
+}
+
+.is--symc-sans-medium {
+	font-family: "Source Sans Pro Semi Bold", sans-serif;
+	font-weight: normal;
+}
+
+.is--symc-sans-medium.is--italic {
+	font-family: "Source Sans Pro Semi Bold Italic", sans-serif;
+	font-style: italic;
+}
+
+.is--footer {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+	font-size: 0.75em;
+	color: #8a8a8a;
+}
+
+.has--shadow {
+	text-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+}
+
+.is--lowercase {
+	text-transform: lowercase;
+}
+
+.is--camelcase {
+	text-transform: initial;
+}
+
+.is--uppercase {
+	text-transform: uppercase;
+}
+
+::-webkit-datetime-edit-year-field {
+	/* Chrome/Opera/Safari */
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+.nor__app__root,
+[nor-app-root],
+.nor__app,
+[nor-app] {
+	background: #ffffff;
+	margin: 0px;
+	padding: 0px;
+	font-size: 16px;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+@media (min-width: 1441px) {
+	.nor__app__root.is--native,
+	[nor-app-root].is--native,
+	.nor__app.is--native,
+	[nor-app].is--native {
+		font-size: 20px;
+	}
+}
+
+.is--relative {
+	position: relative;
+}
+
+.is--absolute {
+	position: absolute;
+}
+
+[data-hidden="true"] {
+	display: none !important;
+}
+
+.is--overlay {
+	z-index: 750;
+}
+
+.is--overlay *:not(.card__content__background) {
+	z-index: 750;
+}
+
+@keyframes loader-rotation {
+	0% {
+		transform: translateX(-50%) translateY(-50%) rotate(285deg);
+		border-color: rgba(242, 242, 242, 0.5) rgba(242, 242, 242, 0.5) rgba(242, 242, 242, 0.5) #007eb6;
+	}
+	100% {
+		transform: translateX(-50%) translateY(-50%) rotate(645deg);
+		border-color: rgba(242, 242, 242, 0.5) rgba(242, 242, 242, 0.5) rgba(242, 242, 242, 0.5) #007eb6;
+	}
+}
+
+@keyframes loader-rotation-no-translate {
+	0% {
+		transform: rotate(285deg);
+		border-color: rgba(242, 242, 242, 0.5) rgba(242, 242, 242, 0.5) rgba(242, 242, 242, 0.5) #007eb6;
+	}
+	100% {
+		transform: rotate(645deg);
+		border-color: rgba(242, 242, 242, 0.5) rgba(242, 242, 242, 0.5) rgba(242, 242, 242, 0.5) #007eb6;
+	}
+}
+
+@keyframes loader-rotation-light {
+	0% {
+		transform: translateX(-50%) translateY(-50%) rotate(285deg);
+		border-color: rgba(242, 242, 242, 0.5) rgba(242, 242, 242, 0.5) rgba(242, 242, 242, 0.5) #FFFFFF;
+	}
+	100% {
+		transform: translateX(-50%) translateY(-50%) rotate(645deg);
+		border-color: rgba(242, 242, 242, 0.5) rgba(242, 242, 242, 0.5) rgba(242, 242, 242, 0.5) #FFFFFF;
+	}
+}
+
+.a__loading__icon {
+	display: block;
+	position: initial;
+	top: auto;
+	right: auto;
+	bottom: auto;
+	left: auto;
+	margin: 0 auto;
+	width: 4em;
+	height: 4em;
+	text-indent: -9999em;
+	border-color: rgba(242, 242, 242, 0.5) rgba(242, 242, 242, 0.5) rgba(242, 242, 242, 0.5) #007eb6;
+	border-style: solid;
+	border-width: .4em;
+	border-radius: 50%;
+	animation: loader-rotation 1s infinite cubic-bezier(0, 0.66, 1, 0.33);
+	transform-origin: 50% 50%;
+}
+
+.a__loading__icon.is--large {
+	width: 7em;
+	height: 7em;
+}
+
+.a__loading__icon.is--medium {
+	width: 4em;
+	height: 4em;
+}
+
+.a__loading__icon.is--small {
+	width: 44px;
+	height: 44px;
+	border-width: 5px;
+}
+
+.a__loading__icon.is--xs {
+	width: 1.0em;
+	height: 1.0em;
+	border-width: .2em;
+}
+
+.a__loading__icon.is--light {
+	border-color: rgba(242, 242, 242, 0.5) rgba(242, 242, 242, 0.5) rgba(242, 242, 242, 0.5) #FFFFFF;
+	animation: loader-rotation-light 1s infinite cubic-bezier(0, 0.66, 1, 0.33);
+}
+
+.a__loading__icon.is--dark {
+	animation: loader-rotation 1s infinite cubic-bezier(0, 0.66, 1, 0.33);
+}
+
+.a__loading__icon.is--thin {
+	border-width: 2px;
+}
+
+.a__loading__icon.is--thin.no--translate {
+	animation: loader-rotation-no-translate 1s infinite cubic-bezier(0, 0.66, 1, 0.33);
+}
+
+.nor__app__root>.a__loading__icon,
+[nor-app-root]>.a__loading__icon,
+.nor__app>.a__loading__icon,
+[nor-app]>.a__loading__icon {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
+
+.o__view__container {
+	display: block;
+	width: 100%;
+}
+
+.o__view__container.has--top--margin {
+	margin-top: 60px;
+}
+
+.o__grid__container {
+	display: block;
+}
+
+.o__grid__container::after {
+	clear: both;
+	content: "";
+	display: block;
+}
+
+@media (max-width: 767px) {
+	.o__grid__container {
+		width: 100%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+	.o__grid__container {
+		width: 100%;
+	}
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+	.o__grid__container {
+		position: relative;
+		left: 50%;
+		margin-left: -40%;
+		width: calc(80% - 20px);
+	}
+}
+
+@media (min-width: 1441px) {
+	.o__grid__container {
+		position: relative;
+		left: 50%;
+		margin-left: -40%;
+		width: 80%;
+		max-width: 1920px;
+	}
+}
+
+.o__grid__container.has--top--margin {
+	margin-top: 60px;
+}
+
+.o__grid__container.is--relative {
+	position: relative;
+}
+
+.is--native .o__grid__container {
+	position: relative;
+	left: 50%;
+	margin-left: calc(-45% + 5px);
+	width: 90%;
+}
+
+.is--native .o__grid__container::after {
+	clear: both;
+	content: "";
+	display: block;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+	.is--native .o__grid__container {
+		width: 85%;
+		margin-left: -40%;
+	}
+}
+
+@media (max-width: 767px) {
+	.is--native .o__grid__container {
+		width: 80%;
+		margin-left: -35%;
+	}
+}
+
+.m__row {
+	margin-left: -20px;
+	margin-right: -20px;
+	width: calc(100% + 40px);
+}
+
+.m__row .m__item {
+	min-height: 1px;
+}
+
+.m__row.is--3col .m__item {
+	width: calc(33.33333% - 26.66667px);
+	float: left;
+	margin-left: 20px;
+}
+
+.m__row.is--3col .m__item.no--margin {
+	margin-left: 0px;
+}
+
+.m__row.is--2col .m__item {
+	width: calc(50% - 30px);
+	float: left;
+	margin-left: 20px;
+}
+
+.m__row.is--2col .m__item.no--margin {
+	margin-left: 0px;
+}
+
+.m__row.is--1col .m__item {
+	width: calc(100% - 40px);
+	float: left;
+	margin-left: 20px;
+}
+
+.m__row.is--1col .m__item.no--margin {
+	margin-left: 0px;
+}
+
+.m__row+.m__row {
+	margin-top: 30px;
+}
+
+.m__row+.m__row.no--top--margin {
+	margin-top: 0px;
+}
+
+.m__row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+[nor-card][ng-reflect-ui-type~="is--notification"],
+nor-card[ng-reflect-ui-type~="is--notification"],
+.nor-card[ng-reflect-ui-type~="is--notification"] {
+	perspective: 1000px;
+}
+
+.o__card__container:not(.is--native) {
+	background: #eeeeee;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+	padding-bottom: 24px;
+}
+
+.o__card__container:not(.is--native).has--white--background {
+	background: #fff;
+}
+
+@media (min-width: 1441px) {
+	.o__card__container:not(.is--native) .o__grid__container [nor-card]:not(.is--marketing),
+	.o__card__container:not(.is--native) .o__grid__container nor-card:not(.is--marketing) {
+		width: calc(25% - 37.5px);
+		float: left;
+		margin-left: 30px;
+	}
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+	.o__card__container:not(.is--native) .o__grid__container [nor-card]:not(.is--marketing),
+	.o__card__container:not(.is--native) .o__grid__container nor-card:not(.is--marketing) {
+		width: calc(33.33333% - 26.66667px);
+		float: left;
+		margin-left: 20px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+	.o__card__container:not(.is--native) .o__grid__container [nor-card]:not(.is--marketing),
+	.o__card__container:not(.is--native) .o__grid__container nor-card:not(.is--marketing) {
+		width: calc(50% - 30px);
+		float: left;
+		margin-left: 20px;
+	}
+}
+
+@media (max-width: 767px) {
+	.o__card__container:not(.is--native) .o__grid__container [nor-card]:not(.is--marketing),
+	.o__card__container:not(.is--native) .o__grid__container nor-card:not(.is--marketing) {
+		width: 100%;
+	}
+}
+
+@media (min-width: 1441px) {
+	.o__card__container:not(.is--native) .o__grid__container [nor-card].is--marketing,
+	.o__card__container:not(.is--native) .o__grid__container nor-card.is--marketing {
+		width: calc(50% - 45px);
+		float: left;
+		margin-left: 30px;
+	}
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+	.o__card__container:not(.is--native) .o__grid__container [nor-card].is--marketing,
+	.o__card__container:not(.is--native) .o__grid__container nor-card.is--marketing {
+		width: calc(50% - 30px);
+		float: left;
+		margin-left: 20px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+	.o__card__container:not(.is--native) .o__grid__container [nor-card].is--marketing,
+	.o__card__container:not(.is--native) .o__grid__container nor-card.is--marketing {
+		width: calc(50% - 30px);
+		float: left;
+		margin-left: 20px;
+	}
+}
+
+@media (max-width: 767px) {
+	.o__card__container:not(.is--native) .o__grid__container [nor-card].is--marketing,
+	.o__card__container:not(.is--native) .o__grid__container nor-card.is--marketing {
+		width: 100%;
+	}
+}
+
+@media (min-width: 1441px) {
+	.o__card__container:not(.is--native) .o__grid__container {
+		left: 50%;
+		margin-left: -720px;
+		min-width: 1440px;
+		max-width: 1440px;
+	}
+}
+
+@media (max-width: 767px) {
+	.o__card__container:not(.is--native) {
+		padding-top: 0px;
+	}
+	.o__card__container:not(.is--native) .a__section__heading {
+		margin-top: 0px;
+		margin-bottom: 30px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+	.o__card__container:not(.is--native) {
+		padding-top: 0px;
+	}
+	.o__card__container:not(.is--native) .a__section__heading {
+		margin-top: 0px;
+		margin-bottom: 30px;
+	}
+}
+
+.o__card__container.is--native:not(.is--mobile) .o__grid__container>[nor-card],
+.o__card__container.is--native:not(.is--mobile) .o__grid__container>nor-card {
+	left: calc(41.66667% - 28.33333px + 20px);
+	position: relative;
+	width: calc(58.33333% - 31.66667px);
+	float: left;
+	margin-left: 20px;
+}
+
+.is--platform .o__section .a__section__heading,
+.is--platform .o__card__container .a__section__heading {
+	text-transform: uppercase;
+	margin: 50px 0;
+	margin-left: 30px;
+	font-size: 0.875em;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+	font-weight: 600;
+	line-height: 1.43;
+	color: #808080;
+}
+
+.is--platform .o__section .a__section__heading.no--margin--top,
+.is--platform .o__card__container .a__section__heading.no--margin--top {
+	margin-top: 0px;
+}
+
+.is--platform .o__section .a__section__heading::after,
+.is--platform .o__card__container .a__section__heading::after {
+	content: '';
+	display: block;
+	width: calc(100% - 30px);
+	height: 2px;
+	background: #e5e4e4;
+	background: linear-gradient(to bottom, #e2e2e2 0%, #e2e2e2 49%, #ffffff 50%, #ffffff 100%);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	margin-top: 8px;
+}
+
+.is--platform .o__section .t__subscription.m__section__header,
+.is--platform .o__card__container .t__subscription.m__section__header {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+	margin-top: 0px;
+	margin-bottom: 40px;
+	margin-left: 30px;
+	padding-top: 36px;
+}
+
+.is--platform .o__section .t__subscription.m__section__header .a__section__label,
+.is--platform .o__section .t__subscription.m__section__header .a__section__status,
+.is--platform .o__card__container .t__subscription.m__section__header .a__section__label,
+.is--platform .o__card__container .t__subscription.m__section__header .a__section__status {
+	font-size: 0.875em;
+	font-weight: 600;
+	line-height: 1.43;
+}
+
+.is--platform .o__section .t__subscription.m__section__header .a__section__desc,
+.is--platform .o__section .t__subscription.m__section__header .a__section__link,
+.is--platform .o__card__container .t__subscription.m__section__header .a__section__desc,
+.is--platform .o__card__container .t__subscription.m__section__header .a__section__link {
+	font-size: 0.75em;
+	float: left;
+}
+
+.is--platform .o__section .t__subscription.m__section__header .a__section__label,
+.is--platform .o__card__container .t__subscription.m__section__header .a__section__label {
+	float: left;
+	margin-right: 5px;
+}
+
+.is--platform .o__section .t__subscription.m__section__header .a__section__desc,
+.is--platform .o__card__container .t__subscription.m__section__header .a__section__desc {
+	padding-right: 5px;
+	color: #8A8A8A;
+	border-right: 1px solid #8A8A8A;
+}
+
+.is--platform .o__section .t__subscription.m__section__header .a__section__link,
+.is--platform .o__card__container .t__subscription.m__section__header .a__section__link {
+	padding-left: 5px;
+}
+
+.is--platform .o__section .t__subscription.m__section__header .a__section__link a,
+.is--platform .o__card__container .t__subscription.m__section__header .a__section__link a {
+	text-decoration: none;
+	color: #0089C6;
+}
+
+.is--platform .o__section .t__subscription.m__section__header .a__section__status:after,
+.is--platform .o__card__container .t__subscription.m__section__header .a__section__status:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.is--platform .o__section .t__subscription.m__section__header::after,
+.is--platform .o__card__container .t__subscription.m__section__header::after {
+	content: '';
+	display: block;
+	width: calc(100% - 30px);
+	height: 2px;
+	background: #e5e4e4;
+	background: linear-gradient(to bottom, #e2e2e2 0%, #e2e2e2 49%, #ffffff 50%, #ffffff 100%);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	margin-top: 22px;
+}
+
+.o__section__divider {
+	background: #fff;
+	height: 5px;
+	width: 100%;
+	position: absolute;
+	z-index: 1;
+	overflow: visible;
+}
+
+.o__section__divider .m__icon {
+	max-width: 100px;
+	height: 100px;
+	margin-top: -50px;
+}
+
+.o__section__divider .m__icon * {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	margin: auto;
+}
+
+.o__section__divider .m__icon .is--small {
+	display: none;
+}
+
+.o__section__divider .m__icon.is--white {
+	background: #fff;
+}
+
+.o__section__divider .m__icon.is--circle {
+	border-radius: 50px;
+}
+
+@media (min-width: 1441px) {
+	.o__section__divider .m__icon.is--left {
+		left: calc(4.16667% - 31.25px + 30px);
+		position: relative;
+		width: calc(16.66667% - 35px);
+		float: left;
+		margin-left: 30px;
+	}
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+	.o__section__divider .m__icon.is--left {
+		left: calc(4.16667% - 20.83333px + 20px);
+		position: relative;
+		width: calc(16.66667% - 23.33333px);
+		float: left;
+		margin-left: 20px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+	.o__section__divider .m__icon.is--left {
+		left: calc(4.375% - 20.875px + 20px);
+		position: relative;
+		width: calc(25% - 25px);
+		float: left;
+		margin-left: 20px;
+	}
+}
+
+@media (min-width: 1441px) {
+	.o__section__divider .m__icon.is--right {
+		left: calc(87.5% - 56.25px + 30px);
+		position: relative;
+		width: calc(16.66667% - 35px);
+		float: left;
+		margin-left: 30px;
+	}
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+	.o__section__divider .m__icon.is--right {
+		left: calc(87.5% - 37.5px + 20px);
+		position: relative;
+		width: calc(16.66667% - 23.33333px);
+		float: left;
+		margin-left: 20px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+	.o__section__divider .m__icon.is--right {
+		left: calc(79.375% - 35.875px + 20px);
+		position: relative;
+		width: calc(25% - 25px);
+		float: left;
+		margin-left: 20px;
+	}
+}
+
+@media (max-width: 767px) {
+	.o__section__divider .m__icon {
+		width: 60px;
+		height: 60px;
+		top: 0;
+		left: 0;
+		right: 0;
+		margin: -30px auto;
+		clear: both;
+	}
+	.o__section__divider .m__icon .is--small {
+		display: block;
+	}
+	.o__section__divider .m__icon .is--medium {
+		display: none;
+	}
+}
+
+.is--lazy {
+	opacity: 0;
+	transition: opacity 0.5s ease-out;
+}
+
+.is--platform .o__grid__container.has--top--margin,
+.is--platform .o__view__container.has--top--margin {
+	margin-top: 80px;
+}
+
+@media (max-width: 767px) {
+	.is--platform .o__grid__container.has--top--margin,
+	.is--platform .o__view__container.has--top--margin {
+		margin-top: 60px;
+	}
+}
+
+.is--rtl {
+	overflow-x: hidden;
+	transform: scaleX(-1);
+}
+
+.is--rtl .o__card__container .t__subscription.m__section__header .a__section__desc {
+	border-right: none;
+}
+
+.is--rtl .m__section__header .a__section__desc {
+	transform: scaleX(-1);
+	border-left: 1px solid;
+	padding-left: 5px;
+}
+
+.is--rtl .m__section__header .a__section__link {
+	transform: scaleX(-1);
+	padding-right: 5px;
+}
+
+.is--rtl .m__section__header .a__section__label {
+	transform: scaleX(-1);
+}
+
+.is--rtl .m__section__header .a__section__status {
+	display: table;
+	transform: scaleX(-1);
+}
+
+.a__norton__check__icon {
+	width: 48px;
+	height: 48px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -12px -420px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__norton__check__icon {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__norton__logo__icon {
+	width: 91px;
+	height: 35px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -71px -427px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__norton__logo__icon {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__norton__logo__icon.is--white {
+	width: 156px;
+	height: 48px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -426px -448px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__norton__logo__icon.is--white {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__norton__logo__icon.is--white.is--small {
+	width: 104px;
+	height: 40px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -182px -423px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__norton__logo__icon.is--white.is--small {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__norton__logo__icon.is--white.is--medium {
+	width: 156px;
+	height: 48px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -426px -448px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__norton__logo__icon.is--white.is--medium {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__corporate__sign__off__logo {
+	width: 121px;
+	height: 26px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -609px -462px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__corporate__sign__off__logo {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__chevron__icon {
+	cursor: pointer;
+	width: 18px;
+	height: 10px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -116px -90px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__chevron__icon {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__chevron__icon.is--grey {
+	width: 18px;
+	height: 10px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -116px -90px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__chevron__icon.is--grey {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__chevron__icon.is--white {
+	width: 40px;
+	height: 40px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -112px -40px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__chevron__icon.is--white {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__chevron__icon.is--charcoal {
+	width: 40px;
+	height: 40px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -650px -80px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__chevron__icon.is--charcoal {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__back__arrow__icon {
+	cursor: pointer;
+}
+
+.a__back__arrow__icon.is--white {
+	width: 18px;
+	height: 18px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -26px -90px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__back__arrow__icon.is--white {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__hamburger__icon {
+	cursor: pointer;
+}
+
+.a__hamburger__icon.is--grey {
+	width: 48px;
+	height: 48px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -144px -80px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__hamburger__icon.is--grey {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__close__icon {
+	cursor: pointer;
+	width: 20px;
+	height: 20px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -435px -546px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__close__icon {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__close__icon.is--grey {
+	width: 20px;
+	height: 20px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -435px -546px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__close__icon.is--grey {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__close__icon.is--grey.is--extra--small,
+.a__close__icon.is--grey.is--xs {
+	width: 16px;
+	height: 16px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -142px -12px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__close__icon.is--grey.is--extra--small,
+	.a__close__icon.is--grey.is--xs {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__close__icon.is--grey.is--small {
+	width: 20px;
+	height: 20px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -168px -10px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__close__icon.is--grey.is--small {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__close__icon.is--grey.is--medium {
+	width: 40px;
+	height: 40px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -256px -86px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__close__icon.is--grey.is--medium {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__close__icon.is--grey.is--large {
+	width: 40px;
+	height: 40px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -385px -546px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__close__icon.is--grey.is--large {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__close__icon.is--white {
+	width: 20px;
+	height: 20px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -521px -546px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__close__icon.is--white {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__close__icon.is--white.is--extra--small,
+.a__close__icon.is--white.is--xs {
+	width: 16px;
+	height: 16px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -86px -12px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__close__icon.is--white.is--extra--small,
+	.a__close__icon.is--white.is--xs {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__close__icon.is--white.is--small {
+	width: 20px;
+	height: 20px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -112px -10px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__close__icon.is--white.is--small {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__close__icon.is--white.is--medium {
+	width: 40px;
+	height: 40px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -262px -40px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__close__icon.is--white.is--medium {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__close__icon.is--white.is--large {
+	width: 40px;
+	height: 40px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -471px -546px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__close__icon.is--white.is--large {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__user__icon {
+	cursor: pointer;
+	width: 40px;
+	height: 40px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -562px -40px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__user__icon {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__user__icon.is--medium {
+	width: 40px;
+	height: 40px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -562px -40px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__user__icon.is--medium {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__user__icon.is--medium.is--active {
+	width: 40px;
+	height: 40px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -662px -40px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__user__icon.is--medium.is--active {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__user__icon.is--medium.is--inactive {
+	width: 40px;
+	height: 40px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -612px -40px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__user__icon.is--medium.is--inactive {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__user__icon.is--default {
+	width: 48px;
+	height: 48px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -12px -480px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__user__icon.is--default {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__user__icon.is--grey {
+	width: 48px;
+	height: 48px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -64px -480px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__user__icon.is--grey {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__anti__theft__icon {
+	width: 60px;
+	height: 60px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -152px -536px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__anti__theft__icon {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__anti__theft__icon.is--medium {
+	width: 60px;
+	height: 60px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -152px -536px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__anti__theft__icon.is--medium {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__anti__theft__icon.is--small {
+	width: 40px;
+	height: 40px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -322px -544px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__anti__theft__icon.is--small {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__account__blue__icon {
+	width: 60px;
+	height: 60px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -82px -536px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__account__blue__icon {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__account__blue__icon.is--medium {
+	width: 60px;
+	height: 60px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -82px -536px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__account__blue__icon.is--medium {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__account__blue__icon.is--small {
+	width: 40px;
+	height: 40px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -272px -544px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__account__blue__icon.is--small {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__download__blue__icon {
+	width: 60px;
+	height: 60px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -12px -536px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__download__blue__icon {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__download__blue__icon.is--medium {
+	width: 60px;
+	height: 60px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -12px -536px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__download__blue__icon.is--medium {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__download__blue__icon.is--small {
+	width: 40px;
+	height: 40px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -222px -544px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__download__blue__icon.is--small {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__symantec__logo {
+	width: 72px;
+	height: 20px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -126px -475px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__symantec__logo {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__danger__icon {
+	cursor: pointer;
+	width: 20px;
+	height: 20px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -266px -10px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__danger__icon {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__alert__icon {
+	cursor: pointer;
+	width: 20px;
+	height: 20px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -236px -10px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__alert__icon {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__secure__icon {
+	cursor: pointer;
+	width: 20px;
+	height: 20px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -206px -10px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__secure__icon {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__load__warning__icon {
+	width: 20px;
+	height: 20px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -326px -10px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__load__warning__icon {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__inactive__icon {
+	cursor: pointer;
+	width: 20px;
+	height: 20px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -296px -10px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__inactive__icon {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__status__icon {
+	width: 60px;
+	height: 60px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -222px -275px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__status__icon {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__status__icon.is--circle.is--small.is--alert {
+	width: 20px;
+	height: 20px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -236px -10px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__status__icon.is--circle.is--small.is--alert {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__status__icon.is--circle.is--small.is--alert.is--grey {
+	width: 20px;
+	height: 20px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -326px -10px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__status__icon.is--circle.is--small.is--alert.is--grey {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__status__icon.is--circle.is--small.is--secure {
+	width: 20px;
+	height: 20px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -206px -10px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__status__icon.is--circle.is--small.is--secure {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__status__icon.is--circle.is--small.is--secure.no--shadow {
+	width: 24px;
+	height: 24px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -569px -304px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__status__icon.is--circle.is--small.is--secure.no--shadow {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__status__icon.is--circle.is--small.is--danger {
+	width: 20px;
+	height: 20px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -266px -10px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__status__icon.is--circle.is--small.is--danger {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__status__icon.is--circle.is--small.is--danger.no--shadow {
+	width: 24px;
+	height: 24px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -602px -303px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__status__icon.is--circle.is--small.is--danger.no--shadow {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__status__icon.is--circle.is--small.is--inactive {
+	width: 20px;
+	height: 20px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -296px -10px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__status__icon.is--circle.is--small.is--inactive {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__status__icon.is--triangle.is--small {
+	width: 30px;
+	height: 30px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -411px -295px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__status__icon.is--triangle.is--small {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__status__icon.is--triangle.is--small.is--alert.no--shadow {
+	width: 24px;
+	height: 24px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -533px -305px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__status__icon.is--triangle.is--small.is--alert.no--shadow {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__status__icon.is--triangle.is--large.is--white {
+	width: 60px;
+	height: 60px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -12px -275px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__status__icon.is--triangle.is--large.is--white {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__status__icon.is--triangle.is--large.is--grey {
+	width: 60px;
+	height: 60px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -222px -275px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__status__icon.is--triangle.is--large.is--grey {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__status__icon.is--triangle.is--large.is--danger {
+	width: 60px;
+	height: 60px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -152px -275px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__status__icon.is--triangle.is--large.is--danger {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__status__icon.is--triangle.is--large.is--alert {
+	width: 60px;
+	height: 60px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -82px -275px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__status__icon.is--triangle.is--large.is--alert {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__status__icon.is--triangle.is--large.is--alert.no--shadow {
+	width: 60px;
+	height: 60px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -459px -276px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__status__icon.is--triangle.is--large.is--alert.no--shadow {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__status__icon.is--triangle.is--xl.is--white {
+	width: 80px;
+	height: 80px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -302px -255px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__status__icon.is--triangle.is--xl.is--white {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__computer__tuneup__icon {
+	cursor: pointer;
+	width: 60px;
+	height: 60px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -782px -126px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__computer__tuneup__icon {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__computer__tuneup__icon.is--grey {
+	width: 60px;
+	height: 60px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -782px -126px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__computer__tuneup__icon.is--grey {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__computer__tuneup__icon.is--white {
+	width: 60px;
+	height: 60px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -782px -196px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__computer__tuneup__icon.is--white {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__ultimate__helpdesk__icon {
+	cursor: pointer;
+	width: 60px;
+	height: 60px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -712px -126px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__ultimate__helpdesk__icon {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__ultimate__helpdesk__icon.is--grey {
+	width: 60px;
+	height: 60px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -712px -126px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__ultimate__helpdesk__icon.is--grey {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__ultimate__helpdesk__icon.is--white {
+	width: 60px;
+	height: 60px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -712px -196px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__ultimate__helpdesk__icon.is--white {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__utilities__icon {
+	cursor: pointer;
+	width: 60px;
+	height: 60px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -642px -126px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__utilities__icon {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__utilities__icon.is--grey {
+	width: 60px;
+	height: 60px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -642px -126px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__utilities__icon.is--grey {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__utilities__icon.is--white {
+	width: 60px;
+	height: 60px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -642px -196px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__utilities__icon.is--white {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__core__icon {
+	cursor: pointer;
+	width: 60px;
+	height: 60px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -572px -126px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__core__icon {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__core__icon.is--grey {
+	width: 60px;
+	height: 60px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -572px -126px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__core__icon.is--grey {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__core__icon.is--white {
+	width: 60px;
+	height: 60px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -572px -196px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__core__icon.is--white {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__password__manager__icon {
+	cursor: pointer;
+	width: 60px;
+	height: 60px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -502px -126px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__password__manager__icon {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__password__manager__icon.is--grey {
+	width: 60px;
+	height: 60px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -502px -126px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__password__manager__icon.is--grey {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__password__manager__icon.is--white {
+	width: 60px;
+	height: 60px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -502px -196px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__password__manager__icon.is--white {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__parental__controls__icon {
+	cursor: pointer;
+	width: 60px;
+	height: 60px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -432px -126px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__parental__controls__icon {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__parental__controls__icon.is--grey {
+	width: 60px;
+	height: 60px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -432px -126px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__parental__controls__icon.is--grey {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__parental__controls__icon.is--white {
+	width: 60px;
+	height: 60px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -432px -196px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__parental__controls__icon.is--white {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__secure__vpn__icon {
+	cursor: pointer;
+	width: 60px;
+	height: 60px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -362px -126px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__secure__vpn__icon {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__secure__vpn__icon.is--grey {
+	width: 60px;
+	height: 60px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -362px -126px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__secure__vpn__icon.is--grey {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__secure__vpn__icon.is--white {
+	width: 60px;
+	height: 60px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -362px -196px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__secure__vpn__icon.is--white {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__dark__web__icon {
+	cursor: pointer;
+	width: 60px;
+	height: 60px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -222px -126px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__dark__web__icon {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__dark__web__icon.is--grey {
+	width: 60px;
+	height: 60px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -222px -126px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__dark__web__icon.is--grey {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__dark__web__icon.is--white {
+	width: 60px;
+	height: 60px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -222px -196px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__dark__web__icon.is--white {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__online__backup__icon {
+	cursor: pointer;
+	width: 60px;
+	height: 60px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -292px -126px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__online__backup__icon {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__online__backup__icon.is--grey {
+	width: 60px;
+	height: 60px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -292px -126px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__online__backup__icon.is--grey {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__online__backup__icon.is--white {
+	width: 60px;
+	height: 60px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -292px -196px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__online__backup__icon.is--white {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__identity__icon {
+	cursor: pointer;
+	width: 60px;
+	height: 60px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -82px -126px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__identity__icon {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__identity__icon.is--grey {
+	width: 60px;
+	height: 60px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -82px -126px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__identity__icon.is--grey {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__identity__icon.is--white {
+	width: 60px;
+	height: 60px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -82px -196px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__identity__icon.is--white {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__security__icon {
+	cursor: pointer;
+	width: 60px;
+	height: 60px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -12px -126px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__security__icon {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__security__icon.is--grey {
+	width: 60px;
+	height: 60px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -12px -126px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__security__icon.is--grey {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__security__icon.is--white {
+	width: 60px;
+	height: 60px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -12px -196px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__security__icon.is--white {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__home__icon {
+	cursor: pointer;
+	width: 60px;
+	height: 60px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -852px -126px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__home__icon {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__home__icon.is--white {
+	width: 60px;
+	height: 60px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -852px -196px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__home__icon.is--white {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__home__icon.is--grey {
+	width: 60px;
+	height: 60px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -852px -126px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__home__icon.is--grey {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__virus__removal__icon {
+	cursor: pointer;
+	width: 60px;
+	height: 60px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -1132px -126px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__virus__removal__icon {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__virus__removal__icon.is--white {
+	width: 60px;
+	height: 60px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -1132px -196px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__virus__removal__icon.is--white {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__virus__removal__icon.is--grey {
+	width: 60px;
+	height: 60px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -1132px -126px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__virus__removal__icon.is--grey {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__vpp__icon {
+	cursor: pointer;
+	width: 60px;
+	height: 60px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -1062px -126px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__vpp__icon {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__vpp__icon.is--white {
+	width: 60px;
+	height: 60px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -1062px -196px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__vpp__icon.is--white {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__vpp__icon.is--grey {
+	width: 60px;
+	height: 60px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -1062px -126px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__vpp__icon.is--grey {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__itp__icon {
+	cursor: pointer;
+	width: 60px;
+	height: 60px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -992px -126px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__itp__icon {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__itp__icon.is--white {
+	width: 60px;
+	height: 60px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -992px -196px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__itp__icon.is--white {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__itp__icon.is--grey {
+	width: 60px;
+	height: 60px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -992px -126px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__itp__icon.is--grey {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__screen__care__icon {
+	cursor: pointer;
+	width: 60px;
+	height: 60px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -922px -126px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__screen__care__icon {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__screen__care__icon.is--white {
+	width: 60px;
+	height: 60px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -922px -196px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__screen__care__icon.is--white {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__screen__care__icon.is--grey {
+	width: 60px;
+	height: 60px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -922px -126px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__screen__care__icon.is--grey {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__privacy__manager__icon {
+	cursor: pointer;
+	width: 60px;
+	height: 60px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -1202px -196px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__privacy__manager__icon {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__privacy__manager__icon.is--white {
+	width: 60px;
+	height: 60px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -1202px -196px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__privacy__manager__icon.is--white {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__privacy__manager__icon.is--charcoal {
+	width: 60px;
+	height: 60px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -1202px -126px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__privacy__manager__icon.is--charcoal {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__privacy__monitor__icon {
+	cursor: pointer;
+	width: 60px;
+	height: 60px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -1342px -196px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__privacy__monitor__icon {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__privacy__monitor__icon.is--white {
+	width: 60px;
+	height: 60px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -1342px -196px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__privacy__monitor__icon.is--white {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__privacy__monitor__icon.is--charcoal {
+	width: 60px;
+	height: 60px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -1342px -126px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__privacy__monitor__icon.is--charcoal {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__ellipses__vertical__icon {
+	cursor: pointer;
+	width: 40px;
+	height: 40px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -512px -40px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__ellipses__vertical__icon {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__help__outlined__icon {
+	cursor: pointer;
+	width: 40px;
+	height: 40px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -462px -40px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__help__outlined__icon {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__creditcard__icon {
+	cursor: pointer;
+	width: 40px;
+	height: 40px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -412px -40px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__creditcard__icon {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__settings__outlined__icon {
+	cursor: pointer;
+	width: 40px;
+	height: 40px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -362px -40px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__settings__outlined__icon {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__arrow__back__icon {
+	cursor: pointer;
+	width: 40px;
+	height: 40px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -212px -40px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__arrow__back__icon {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__hamburger__icon {
+	cursor: pointer;
+	width: 40px;
+	height: 40px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -162px -40px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__hamburger__icon {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__mail__icon {
+	cursor: pointer;
+	width: 40px;
+	height: 40px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -12px -40px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__mail__icon {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__mail__icon.is--outlined {
+	width: 40px;
+	height: 40px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -62px -40px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__mail__icon.is--outlined {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__crossmark__icon {
+	cursor: pointer;
+	width: 20px;
+	height: 20px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -112px -10px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__crossmark__icon {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__crossmark__icon.is--medium.is--white,
+.a__crossmark__icon.is--small.is--white {
+	width: 20px;
+	height: 20px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -112px -10px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__crossmark__icon.is--medium.is--white,
+	.a__crossmark__icon.is--small.is--white {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__crossmark__icon.is--medium.is--dark,
+.a__crossmark__icon.is--small.is--dark {
+	width: 20px;
+	height: 20px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -168px -10px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__crossmark__icon.is--medium.is--dark,
+	.a__crossmark__icon.is--small.is--dark {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__crossmark__icon.is--extra--small,
+.a__crossmark__icon.is--xs {
+	width: 16px;
+	height: 16px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -86px -12px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__crossmark__icon.is--extra--small,
+	.a__crossmark__icon.is--xs {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__crossmark__icon.is--extra--small.is--white,
+.a__crossmark__icon.is--xs.is--white {
+	width: 16px;
+	height: 16px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -86px -12px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__crossmark__icon.is--extra--small.is--white,
+	.a__crossmark__icon.is--xs.is--white {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__crossmark__icon.is--extra--small.is--dark,
+.a__crossmark__icon.is--xs.is--dark {
+	width: 16px;
+	height: 16px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -142px -12px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__crossmark__icon.is--extra--small.is--dark,
+	.a__crossmark__icon.is--xs.is--dark {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__checkmark__icon {
+	cursor: pointer;
+	width: 20px;
+	height: 20px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -50px -8px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__checkmark__icon {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__checkmark__icon.is--small {
+	width: 20px;
+	height: 20px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -50px -8px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__checkmark__icon.is--small {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__checkmark__icon.is--extra--small {
+	width: 16px;
+	height: 16px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -22px -10px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__checkmark__icon.is--extra--small {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__checkmark__icon.is--large.is--secure {
+	width: 60px;
+	height: 60px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -639px -272px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__checkmark__icon.is--large.is--secure {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__lifelock__logo__icon {
+	cursor: pointer;
+	width: 54px;
+	height: 10px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -126px -504px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__lifelock__logo__icon {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__prod__credit__score__icon {
+	cursor: pointer;
+	width: 60px;
+	height: 60px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -152px -126px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__prod__credit__score__icon {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__prod__credit__score__icon.is--grey {
+	width: 60px;
+	height: 60px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -152px -126px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__prod__credit__score__icon.is--grey {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__prod__credit__score__icon.is--white {
+	width: 60px;
+	height: 60px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -152px -196px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__prod__credit__score__icon.is--white {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__prod__lifelock__icon {
+	cursor: pointer;
+	width: 60px;
+	height: 60px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -782px -349px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__prod__lifelock__icon {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__prod__computer__tune__up__icon {
+	cursor: pointer;
+	width: 60px;
+	height: 60px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -712px -349px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__prod__computer__tune__up__icon {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__prod__utilities__icon {
+	cursor: pointer;
+	width: 60px;
+	height: 60px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -642px -349px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__prod__utilities__icon {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__prod__ultimate__help__desk__icon {
+	cursor: pointer;
+	width: 60px;
+	height: 60px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -572px -349px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__prod__ultimate__help__desk__icon {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__prod__core__icon {
+	cursor: pointer;
+	width: 60px;
+	height: 60px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -502px -349px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__prod__core__icon {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__prod__identity__protection__icon {
+	cursor: pointer;
+	width: 60px;
+	height: 60px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -432px -349px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__prod__identity__protection__icon {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__prod__password__vault__icon {
+	cursor: pointer;
+	width: 60px;
+	height: 60px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -362px -349px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__prod__password__vault__icon {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__prod__parental__controls__icon {
+	cursor: pointer;
+	width: 60px;
+	height: 60px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -292px -349px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__prod__parental__controls__icon {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__prod__mobile__security__icon {
+	cursor: pointer;
+	width: 60px;
+	height: 60px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -222px -349px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__prod__mobile__security__icon {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__prod__secure__vpn__icon {
+	cursor: pointer;
+	width: 60px;
+	height: 60px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -152px -349px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__prod__secure__vpn__icon {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__prod__online__backup__icon {
+	cursor: pointer;
+	width: 60px;
+	height: 60px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -82px -349px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__prod__online__backup__icon {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__prod__norton__security__icon {
+	cursor: pointer;
+	width: 60px;
+	height: 60px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -12px -349px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__prod__norton__security__icon {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__submit__chevron__icon {
+	width: 20px;
+	height: 40px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -569px -546px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__submit__chevron__icon {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__submit__chevron__icon.is--grey {
+	width: 20px;
+	height: 40px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -569px -546px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__submit__chevron__icon.is--grey {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__submit__chevron__icon.is--black {
+	width: 20px;
+	height: 40px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -619px -546px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__submit__chevron__icon.is--black {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__product__key__icon {
+	cursor: pointer;
+	width: 136px;
+	height: 120px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -196px -615px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__product__key__icon {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__download__icon {
+	cursor: pointer;
+	width: 60px;
+	height: 60px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -12px -536px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__download__icon {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__download__icon.is--blue.is--small {
+	width: 40px;
+	height: 40px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -222px -544px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__download__icon.is--blue.is--small {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__download__icon.is--blue.is--medium {
+	width: 60px;
+	height: 60px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -12px -536px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__download__icon.is--blue.is--medium {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__download__icon.is--white.is--xl {
+	width: 136px;
+	height: 120px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -16px -615px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__download__icon.is--white.is--xl {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__devices__icon {
+	cursor: pointer;
+	width: 190px;
+	height: 120px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -362px -615px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__devices__icon {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__devices__icon.is--white {
+	width: 190px;
+	height: 120px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -362px -615px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__devices__icon.is--white {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__arrow__assist {
+	cursor: pointer;
+	width: 135px;
+	height: 160px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -702px -584px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__arrow__assist {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__autorenew__icon {
+	cursor: pointer;
+	width: 40px;
+	height: 40px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -302px -86px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__autorenew__icon {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__autorenew__icon.is--white {
+	width: 40px;
+	height: 40px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -302px -86px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__autorenew__icon.is--white {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__chevron__back__icon {
+	cursor: pointer;
+	width: 40px;
+	height: 40px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -54px -80px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__chevron__back__icon {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__add__icon {
+	cursor: pointer;
+	width: 20px;
+	height: 20px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -359px -94px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__add__icon {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.is--legacy .a__close__icon.is--grey {
+	width: 40px;
+	height: 40px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -471px -546px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.is--legacy .a__close__icon.is--grey {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.is--legacy .a__close__icon.is--grey.is--medium {
+	width: 20px;
+	height: 20px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -521px -546px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.is--legacy .a__close__icon.is--grey.is--medium {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.is--legacy .a__close__icon.is--white {
+	width: 20px;
+	height: 20px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -435px -546px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.is--legacy .a__close__icon.is--white {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.is--legacy .a__close__icon.is--white.is--medium {
+	width: 20px;
+	height: 20px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -435px -546px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.is--legacy .a__close__icon.is--white.is--medium {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.is--legacy .a__close__icon.is--white.is--large {
+	width: 40px;
+	height: 40px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -385px -546px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.is--legacy .a__close__icon.is--white.is--large {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__browser__icon.is--safari {
+	width: 46px;
+	height: 46px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -224px -794px;
+}
+
+.a__browser__icon.is--safari.is--small {
+	width: 17px;
+	height: 17px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -141px -849px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__browser__icon.is--safari.is--small {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__browser__icon.is--safari {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__browser__icon.is--opera {
+	width: 46px;
+	height: 46px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -174px -794px;
+}
+
+.a__browser__icon.is--opera.is--small {
+	width: 17px;
+	height: 17px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -112px -849px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__browser__icon.is--opera.is--small {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__browser__icon.is--opera {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__browser__icon.is--ie {
+	width: 46px;
+	height: 46px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -123px -794px;
+}
+
+.a__browser__icon.is--ie.is--small {
+	width: 17px;
+	height: 17px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -83px -849px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__browser__icon.is--ie.is--small {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__browser__icon.is--ie {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__browser__icon.is--firefox {
+	width: 46px;
+	height: 46px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -72px -794px;
+}
+
+.a__browser__icon.is--firefox.is--small {
+	width: 17px;
+	height: 17px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -54px -849px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__browser__icon.is--firefox.is--small {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__browser__icon.is--firefox {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__browser__icon.is--chrome {
+	width: 46px;
+	height: 46px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -21px -794px;
+}
+
+.a__browser__icon.is--chrome.is--small {
+	width: 17px;
+	height: 17px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -25px -849px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__browser__icon.is--chrome.is--small {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__browser__icon.is--chrome {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__info__icon {
+	cursor: pointer;
+	width: 16px;
+	height: 16px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -496px -96px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__info__icon {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__info__icon.is--small {
+	width: 16px;
+	height: 16px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -496px -96px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__info__icon.is--small {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__info__icon.is--small.is--grey {
+	width: 16px;
+	height: 16px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -496px -96px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__info__icon.is--small.is--grey {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__settings__icon {
+	cursor: pointer;
+	width: 40px;
+	height: 40px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -362px -40px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__settings__icon {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__settings__icon.is--white {
+	width: 40px;
+	height: 40px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -362px -40px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__settings__icon.is--white {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__settings__icon.is--charcoal {
+	width: 40px;
+	height: 40px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -712px -40px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__settings__icon.is--charcoal {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__settings__icon.is--small {
+	width: 24px;
+	height: 24px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -462px -92px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__settings__icon.is--small {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__settings__icon.is--small.is--grey {
+	width: 24px;
+	height: 24px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -462px -92px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__settings__icon.is--small.is--grey {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__help__icon {
+	cursor: pointer;
+	width: 40px;
+	height: 40px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -462px -40px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__help__icon {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__help__icon.is--white {
+	width: 40px;
+	height: 40px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -462px -40px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__help__icon.is--white {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__help__icon.is--grey {
+	width: 20px;
+	height: 20px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -214px -95px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__help__icon.is--grey {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__help__icon.is--charcoal {
+	width: 40px;
+	height: 40px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -762px -40px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__help__icon.is--charcoal {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__help__icon.is--small {
+	width: 24px;
+	height: 24px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -428px -92px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__help__icon.is--small {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__help__icon.is--small.is--grey {
+	width: 24px;
+	height: 24px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -428px -92px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__help__icon.is--small.is--grey {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__help__icon.is--small.is--white {
+	width: 24px;
+	height: 24px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -578px -92px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__help__icon.is--small.is--white {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__feedback__icon {
+	cursor: pointer;
+	width: 40px;
+	height: 40px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -718px -76px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__feedback__icon {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__feedback__icon.is--white {
+	width: 40px;
+	height: 40px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -718px -76px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__feedback__icon.is--white {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__feedback__icon.is--charcoal {
+	width: 40px;
+	height: 40px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -766px -76px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__feedback__icon.is--charcoal {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__feedback__icon.is--small {
+	width: 24px;
+	height: 24px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -541px -92px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__feedback__icon.is--small {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__feedback__icon.is--small.is--grey {
+	width: 24px;
+	height: 24px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -541px -92px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__feedback__icon.is--small.is--grey {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__ssn__dark__icon {
+	width: 40px;
+	height: 40px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -1062px -40px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__ssn__dark__icon {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__encrypted__dark__icon {
+	width: 40px;
+	height: 40px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -1012px -40px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__encrypted__dark__icon {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__privacy__dark__icon {
+	width: 40px;
+	height: 40px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -962px -40px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__privacy__dark__icon {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__live__agent__dark__icon {
+	width: 40px;
+	height: 40px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -912px -40px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__live__agent__dark__icon {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__alerts__dark__icon {
+	width: 40px;
+	height: 40px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -862px -40px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__alerts__dark__icon {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__threat__detection__dark__icon {
+	width: 40px;
+	height: 40px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -812px -40px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__threat__detection__dark__icon {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__breadcrumb__divider {
+	width: 18px;
+	height: 18px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -522px -95px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__breadcrumb__divider {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__internet__security__icon {
+	width: 60px;
+	height: 60px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -1272px -126px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__internet__security__icon {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__internet__security__icon.is--white {
+	width: 60px;
+	height: 60px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -1272px -196px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.a__internet__security__icon.is--white {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.a__norton__ring__atom__icon {
+	display: block;
+	width: 248px;
+	height: 248px;
+	background-image: url("../assets/img/svg/ring-atom-norton.html");
+}
+
+.a__cpu__warning__icon {
+	display: block;
+	width: 248px;
+	height: 198px;
+	background-image: url("../assets/img/svg/cpu-warning-icon.html");
+}
+
+.is--rtl .a__norton__logo__icon.is--white {
+	width: 160px;
+	height: 62px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -439px -790px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.is--rtl .a__norton__logo__icon.is--white {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.is--rtl .a__norton__logo__icon.is--white.is--small {
+	width: 104px;
+	height: 40px;
+	background-repeat: no-repeat;
+	background-image: url(../assets/sprite/norton-ui-sprite.html);
+	background-position: -312px -793px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.is--rtl .a__norton__logo__icon.is--white.is--small {
+		background-image: url(../assets/sprite/norton-ui-spritex2.html);
+		background-size: 1462px 928px;
+	}
+}
+
+.checkmark__icon {
+	background-image: url("../assets/svg/secure-rounded-sm.html");
+	width: 16px;
+	height: 16px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.danger__icon {
+	background-image: url("../assets/svg/danger-rounded-sm.html");
+	width: 16px;
+	height: 16px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.alert__icon {
+	background-image: url("../assets/svg/alert-rounded-sm.html");
+	width: 16px;
+	height: 16px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.loading__error {
+	background-image: url("../assets/svg/alert-rounded-grey-sm.html");
+	width: 16px;
+	height: 16px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.inactive__icon {
+	background-image: url("../assets/svg/off-rounded-sm.html");
+	width: 16px;
+	height: 16px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.a__button .a__signin__label {
+	margin-top: 10px;
+}
+
+@media (min-width: 1441px) {
+	.a__button .a__signin__label {
+		margin-top: 8px;
+	}
+}
+
+.a__button.has--left--icon .a__button__content {
+	height: 21px;
+	text-align: left;
+	display: block;
+}
+
+.a__button.has--left--icon .a__button__content>span:not(:first-child) {
+	float: left;
+	margin-left: 20px;
+	display: block;
+}
+
+.a__button.has--left--icon .a__button__content>span:first-child {
+	float: left;
+	position: relative;
+	display: block;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.a__button.has--left--icon.is--small .a__button__content>span:not(:first-child) {
+	transform: translateY(1px);
+}
+
+.a__button.has--right--icon .a__button__content {
+	height: 21px;
+	text-align: left;
+	display: block;
+}
+
+.a__button.has--right--icon .a__button__content>span:not(:first-child) {
+	float: left;
+}
+
+.a__button.has--right--icon .a__button__content>span:first-child {
+	float: right;
+	position: relative;
+	display: block;
+	top: 50%;
+	margin-left: 8px;
+	transform: translateY(-50%);
+}
+
+.a__button.has--right--icon.is--small .a__button__content>span:not(:first-child) {
+	transform: translateY(1px);
+}
+
+.a__primary__button {
+	color: #333333;
+	display: block;
+	font-size: 1.125em;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+	cursor: pointer;
+	text-align: center;
+	padding: 17px 20px;
+	background: #fdd572;
+	font-weight: 400;
+}
+
+.a__primary__button:hover {
+	background: #fcc34f;
+}
+
+.a__primary__button:active {
+	background: #FFC200;
+}
+
+.a__primary__button.is--left {
+	text-align: left;
+}
+
+.a__primary__button.is--right {
+	text-align: right;
+}
+
+.a__primary__button.is--disabled {
+	color: rgba(51, 51, 51, 0.5);
+	background: #d0cece;
+	cursor: not-allowed;
+}
+
+.a__primary__button.is--yellow--100 {
+	background: #fdd572;
+}
+
+.a__primary__button.is--yellow--100:hover {
+	background: #fcc34f;
+}
+
+.a__primary__button.is--yellow--100:active {
+	background: #fdd572;
+}
+
+.a__primary__button.is--yellow--100.is--disabled {
+	background: rgba(253, 213, 114, 0.5);
+}
+
+.a__primary__button.is--yellow--100.is--disabled:hover,
+.a__primary__button.is--yellow--100.is--disabled:active {
+	background: rgba(253, 213, 114, 0.5);
+}
+
+.a__primary__button.is--yellow--500 {
+	background: #FFC200;
+}
+
+.a__primary__button.is--yellow--500:hover {
+	background: #fcc34f;
+}
+
+.a__primary__button.is--yellow--500:active {
+	background: #fdd572;
+}
+
+.a__primary__button.is--yellow--500.is--disabled {
+	background: rgba(255, 194, 0, 0.5);
+}
+
+.a__primary__button.is--yellow--500.is--disabled:hover,
+.a__primary__button.is--yellow--500.is--disabled:active {
+	background: rgba(255, 194, 0, 0.5);
+}
+
+.a__primary__button.is--blue--500 {
+	background: #007eb6;
+}
+
+.a__primary__button.is--blue--500:hover {
+	background: #36ade1;
+}
+
+.a__primary__button.is--blue--500:active {
+	background: #70c6ec;
+}
+
+.a__primary__button.is--blue--500.is--disabled {
+	background: rgba(0, 126, 182, 0.5);
+}
+
+.a__primary__button.is--blue--500.is--disabled:hover,
+.a__primary__button.is--blue--500.is--disabled:active {
+	background: rgba(0, 126, 182, 0.5);
+}
+
+.a__primary__button.is--grey {
+	color: #4a4a4a;
+	background: #a3a0a0;
+}
+
+.a__primary__button.is--grey:hover {
+	background: #757575;
+}
+
+.a__primary__button.is--grey:active {
+	background: #4a4a4a;
+}
+
+.a__primary__button.is--grey.is--disabled {
+	background: rgba(163, 160, 160, 0.5);
+}
+
+.a__primary__button.is--grey.is--disabled:hover,
+.a__primary__button.is--grey.is--disabled:active {
+	background: rgba(163, 160, 160, 0.5);
+}
+
+.a__primary__button.is--white {
+	color: #333333;
+	background: #FFFFFF;
+}
+
+.a__primary__button.is--white:hover {
+	background: #E0E1DD;
+}
+
+.a__primary__button.is--white:active {
+	background: #8E908F;
+}
+
+.a__primary__button.is--white.is--disabled {
+	background: rgba(255, 255, 255, 0.5);
+}
+
+.a__primary__button.is--white.is--disabled:hover,
+.a__primary__button.is--white.is--disabled:active {
+	background: rgba(255, 255, 255, 0.5);
+}
+
+.a__primary__button.is--black {
+	color: #FFFFFF;
+	background: #000000;
+}
+
+.a__primary__button.is--black:hover {
+	background: #333333;
+}
+
+.a__primary__button.is--black:active {
+	background: #4a4a4a;
+}
+
+.a__primary__button.is--black.is--disabled {
+	background: rgba(0, 0, 0, 0.5);
+}
+
+.a__primary__button.is--black.is--disabled:hover,
+.a__primary__button.is--black.is--disabled:active {
+	background: rgba(0, 0, 0, 0.5);
+}
+
+.a__primary__button.is--charcoal {
+	color: #FFFFFF;
+	background: #2c3b4b;
+}
+
+.a__primary__button.is--charcoal:hover {
+	background: #333333;
+}
+
+.a__primary__button.is--charcoal:active {
+	background: #4a4a4a;
+}
+
+.a__primary__button.is--charcoal.is--disabled {
+	background: rgba(44, 59, 75, 0.5);
+}
+
+.a__primary__button.is--charcoal.is--disabled:hover,
+.a__primary__button.is--charcoal.is--disabled:active {
+	background: rgba(44, 59, 75, 0.5);
+}
+
+.a__primary__button.is--danger--500 {
+	color: #FFFFFF;
+	background: #c61d13;
+}
+
+.a__primary__button.is--danger--500:hover {
+	background: #e14747;
+}
+
+.a__primary__button.is--danger--500:active {
+	background: #fd7777;
+}
+
+.a__primary__button.is--danger--500.is--disabled {
+	background: rgba(198, 29, 19, 0.5);
+}
+
+.a__primary__button.is--danger--500.is--disabled:hover,
+.a__primary__button.is--danger--500.is--disabled:active {
+	background: rgba(198, 29, 19, 0.5);
+}
+
+.a__primary__button.is--dropdown {
+	background-image: url("../assets/img/chevron.html");
+	background-position: right center;
+	background-repeat: no-repeat;
+	height: 22.5px;
+}
+
+.a__primary__button.is--dropdown:hover {
+	background-image: url("../assets/img/chevron.html");
+}
+
+.a__primary__button.is--small {
+	font-size: 0.875em;
+	padding: 8px 10px;
+}
+
+.a__primary__button.is--medium {
+	font-size: 1em;
+	padding: 11px 11px;
+}
+
+.a__secondary__button {
+	display: block;
+	font-size: 1.125em;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+	cursor: pointer;
+	text-align: center;
+	padding: 17px 20px;
+	font-weight: 400;
+}
+
+.a__secondary__button.is--left {
+	text-align: left;
+}
+
+.a__secondary__button.is--right {
+	text-align: right;
+}
+
+.a__secondary__button.is--disabled {
+	color: rgba(51, 51, 51, 0.5);
+	background: #FFFFFF;
+	opacity: 0.5;
+	cursor: not-allowed;
+}
+
+.a__secondary__button.has--underline {
+	text-decoration: underline;
+}
+
+.a__secondary__button.is--blue {
+	color: #0089C6;
+}
+
+.a__secondary__button.is--blue:hover {
+	color: #36ade1;
+	text-decoration: none;
+}
+
+.a__secondary__button.is--blue:active {
+	color: #09557b;
+	text-decoration: none;
+}
+
+.a__secondary__button.is--dark {
+	color: #333333;
+}
+
+.a__secondary__button.is--dark:hover {
+	color: #333333;
+	text-decoration: none;
+}
+
+.a__secondary__button.is--dark:active {
+	color: #333333;
+	text-decoration: none;
+}
+
+.a__secondary__button.is--black {
+	color: #4a4a4a;
+}
+
+.a__secondary__button.is--black:hover {
+	color: #4a4a4a;
+	text-decoration: none;
+}
+
+.a__secondary__button.is--black:active {
+	color: #032e61;
+	text-decoration: none;
+}
+
+.a__secondary__button.has--outline {
+	padding: 13px 18px;
+}
+
+.a__secondary__button.has--outline.is--white {
+	color: #FFFFFF;
+	border: 1px solid #FFFFFF;
+}
+
+.a__secondary__button.has--outline.is--black {
+	color: #4a4a4a;
+	border: 1px solid #4a4a4a;
+}
+
+.a__secondary__button.has--outline.is--yellow--100 {
+	border: 1px solid #fdd572;
+}
+
+.a__secondary__button.has--outline.is--small {
+	padding: 7px 10px;
+}
+
+.a__secondary__button.has--dropdown--sibling {
+	padding: 13px 10px;
+}
+
+.a__secondary__button.has--dropdown--sibling~.is--dropdown {
+	height: 35px;
+}
+
+.a__secondary__button.is--dropdown {
+	background-image: url("../assets/img/chevron.html");
+	background-position: right center;
+	background-repeat: no-repeat;
+}
+
+.a__secondary__button.is--dropdown.is--small {
+	height: auto;
+}
+
+.a__secondary__button.is--small {
+	font-size: 0.875em;
+	padding: 8px 10px;
+}
+
+.a__secondary__button.is--medium {
+	font-size: 1em;
+	padding: 11px 11px;
+}
+
+.is--native .a__secondary__button.has--dropdown--sibling {
+	float: left;
+	min-height: 19px;
+}
+
+.is--native .a__secondary__button.has--dropdown--sibling~.is--dropdown {
+	float: right;
+	padding: 6px 12px;
+	height: 21px;
+	background-position: center center;
+}
+
+.is--native .m__button .a__secondary__button.has--dropdown--sibling {
+	width: calc(100% - 49px);
+}
+
+button.a__primary__button,
+button.a__secondary__button {
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+.a__button.t__user__account {
+	padding: 0px;
+	margin: 0px;
+	display: inline-block;
+}
+
+.a__button.t__user__account .a__button__content {
+	height: 55px;
+	line-height: .9;
+}
+
+.a__button.t__user__account .a__button__content>span:first-child {
+	top: 0px;
+	transform: translateX(-5px) translateY(-2px);
+}
+
+.a__button.t__user__account .a__button__content>span:not(:first-child) {
+	margin-left: 0px;
+}
+
+.a__button.t__user__account .a__button__content .a__username,
+.a__button.t__user__account .a__button__content .a__status__data__point {
+	transform: translateY(2px);
+}
+
+@media (min-width: 1441px) {
+	.a__button.t__user__account .a__button__content .a__username,
+	.a__button.t__user__account .a__button__content .a__status__data__point {
+		transform: translateY(-3px);
+	}
+}
+
+.a__button.t__user__account .a__username {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+	font-size: 1em;
+	font-weight: normal;
+	color: #333333;
+}
+
+.a__button.t__user__account .a__status__data__point span:first-child {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+	font-size: 0.75em;
+	font-weight: 700;
+	color: #757575;
+}
+
+.a__button.t__user__account .a__status__data__point span+span {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+	font-size: 0.75em;
+	font-weight: 600;
+	color: #757575;
+}
+
+.a__button.t__add__device {
+	padding: 0px;
+	margin: 0px;
+	display: inline-block;
+}
+
+.a__button.t__add__device .a__button__content {
+	height: 48px;
+}
+
+.a__button.t__add__device .a__button__content>span:first-child {
+	top: 50%;
+	transform: translateY(-50%);
+	margin-right: 11px;
+	margin-top: -4px;
+}
+
+.a__button.t__add__device .a__button__content>span:not(:first-child) {
+	margin-left: 0px;
+}
+
+.a__button.t__add__device .is--uppercase {
+	text-transform: uppercase;
+}
+
+.a__button.t__add__device .a__link {
+	text-decoration: none;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+	font-size: 0.875em;
+}
+
+.a__button.t__add__device .a__link.is--center {
+	transform: translateY(50%);
+}
+
+.a__button.t__add__device .a__license__indicator {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+	font-size: 0.75em;
+	color: #757575;
+}
+
+.a__button.is--loading>span,
+.a__primary__button.is--loading>span,
+.a__secondary__button.is--loading>span {
+	display: block;
+	position: relative;
+	left: 50%;
+	top: 50%;
+	transform: translateY(8px);
+	max-width: 1em;
+	max-height: 1em;
+}
+
+.a__button.is--loading>span .a__loading__icon,
+.a__primary__button.is--loading>span .a__loading__icon,
+.a__secondary__button.is--loading>span .a__loading__icon {
+	width: 1.25em;
+	height: 1.25em;
+	border-width: .3em;
+}
+
+.a__button.is--loading.is--small>span,
+.a__primary__button.is--loading.is--small>span,
+.a__secondary__button.is--loading.is--small>span {
+	transform: translateY(6px);
+}
+
+.a__button.is--loading.is--small>span .a__loading__icon,
+.a__primary__button.is--loading.is--small>span .a__loading__icon,
+.a__secondary__button.is--loading.is--small>span .a__loading__icon {
+	width: 1.0em;
+	height: 1.0em;
+	border-width: .2em;
+}
+
+.a__button.is--loading.is--medium>span,
+.a__primary__button.is--loading.is--medium>span,
+.a__secondary__button.is--loading.is--medium>span {
+	transform: translateY(6px);
+}
+
+.a__button.is--loading.is--medium>span .a__loading__icon,
+.a__primary__button.is--loading.is--medium>span .a__loading__icon,
+.a__secondary__button.is--loading.is--medium>span .a__loading__icon {
+	width: 1.0em;
+	height: 1.0em;
+	border-width: .2em;
+}
+
+.is--rtl .a__button.t__user__account .a__button__content .a__username,
+.is--rtl .a__button.t__user__account .a__button__content .a__status__data__point {
+	text-align: right;
+	transform: scaleX(-1) translateY(1px);
+}
+
+@media (min-width: 1441px) {
+	.is--rtl .a__button.t__user__account .a__button__content .a__username,
+	.is--rtl .a__button.t__user__account .a__button__content .a__status__data__point {
+		transform: scaleX(-1) translateY(-3px);
+	}
+}
+
+.m__fieldset {
+	border-width: 0px;
+	border-style: none;
+	border-color: transparent;
+	border-image: none;
+}
+
+.m__form__input,
+.m__form__select {
+	width: 100%;
+}
+
+.m__form__group {
+	padding: 14px 0 12px 0;
+}
+
+.o__modal__container .o__grid__container {
+	position: absolute;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+	.o__modal__container .o__grid__container {
+		padding-top: 80px;
+		padding-bottom: 80px;
+	}
+}
+
+@media (max-width: 767px) {
+	.o__modal__container .o__grid__container {
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+}
+
+.o__modal__container .o__grid__container.no--padding {
+	padding-top: 0px;
+}
+
+.o__modal__container .m__copy .a__first__headline {
+	margin-bottom: 50px;
+}
+
+.o__modal__container .m__copy .a__second__headline {
+	margin-top: 30px;
+}
+
+.o__modal__container .m__copy .a__primary__paragraph,
+.o__modal__container .m__copy .a__secondary__paragraph {
+	line-height: 1.8;
+}
+
+@media (min-width: 1441px) {
+	.o__modal__container .t__onboarding.is--1up .o__subscribe .m__copy,
+	.o__modal__container .t__onboarding.is--1up .o__install .m__copy {
+		width: calc(66.66667% - 50px);
+		float: left;
+		margin-left: 30px;
+		margin-left: calc(16.66667% - 35px + 60px);
+	}
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+	.o__modal__container .t__onboarding.is--1up .o__subscribe .m__copy,
+	.o__modal__container .t__onboarding.is--1up .o__install .m__copy {
+		width: calc(66.66667% - 33.33333px);
+		float: left;
+		margin-left: 20px;
+		margin-left: calc(16.66667% - 23.33333px + 40px);
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+	.o__modal__container .t__onboarding.is--1up .o__subscribe .m__copy,
+	.o__modal__container .t__onboarding.is--1up .o__install .m__copy {
+		width: calc(100% - 40px);
+		float: left;
+		margin-left: 20px;
+	}
+}
+
+@media (max-width: 767px) {
+	.o__modal__container .t__onboarding.is--1up .o__subscribe .m__copy,
+	.o__modal__container .t__onboarding.is--1up .o__install .m__copy {
+		width: calc(100% - 40px);
+		float: left;
+		margin-left: 20px;
+	}
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+	.o__modal__container .t__onboarding.is--1up .o__subscribe .m__button,
+	.o__modal__container .t__onboarding.is--1up .o__install .m__button {
+		width: calc(33.33333% - 26.66667px);
+		float: left;
+		margin-left: 20px;
+		margin-left: calc(33.33333% - 26.66667px + 40px);
+	}
+}
+
+@media (min-width: 1441px) {
+	.o__modal__container .t__onboarding.is--1up .o__subscribe .m__button,
+	.o__modal__container .t__onboarding.is--1up .o__install .m__button {
+		width: calc(33.33333% - 40px);
+		float: left;
+		margin-left: 30px;
+		margin-left: calc(33.33333% - 40px + 60px);
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+	.o__modal__container .t__onboarding.is--1up .o__subscribe .m__button,
+	.o__modal__container .t__onboarding.is--1up .o__install .m__button {
+		width: calc(50% - 30px);
+		float: left;
+		margin-left: 20px;
+		margin-left: calc(25% - 25px + 40px);
+	}
+}
+
+@media (max-width: 767px) {
+	.o__modal__container .t__onboarding.is--1up .o__subscribe .m__button,
+	.o__modal__container .t__onboarding.is--1up .o__install .m__button {
+		width: calc(100% - 40px);
+		float: left;
+		margin-left: 20px;
+	}
+}
+
+@media (min-width: 1441px) {
+	.o__modal__container .t__onboarding.is--1up .o__sequence .m__copy {
+		width: calc(50% - 45px);
+		float: left;
+		margin-left: 30px;
+		margin-left: calc(25% - 37.5px + 60px);
+	}
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+	.o__modal__container .t__onboarding.is--1up .o__sequence .m__copy {
+		width: calc(50% - 30px);
+		float: left;
+		margin-left: 20px;
+		margin-left: calc(25% - 25px + 40px);
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+	.o__modal__container .t__onboarding.is--1up .o__sequence .m__copy {
+		width: calc(75% - 35px);
+		float: left;
+		margin-left: 20px;
+		margin-left: calc(12.5% - 22.5px + 40px);
+	}
+}
+
+@media (max-width: 767px) {
+	.o__modal__container .t__onboarding.is--1up .o__sequence .m__copy {
+		width: calc(100% - 40px);
+		float: left;
+		margin-left: 20px;
+	}
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+	.o__modal__container .t__onboarding.is--1up .o__sequence .m__button {
+		width: calc(16.66667% - 23.33333px);
+		float: left;
+		margin-left: 20px;
+		margin-left: calc(41.66667% - 28.33333px + 40px);
+	}
+}
+
+@media (min-width: 1441px) {
+	.o__modal__container .t__onboarding.is--1up .o__sequence .m__button {
+		width: calc(16.66667% - 35px);
+		float: left;
+		margin-left: 30px;
+		margin-left: calc(41.66667% - 42.5px + 60px);
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+	.o__modal__container .t__onboarding.is--1up .o__sequence .m__button {
+		width: calc(25% - 25px);
+		float: left;
+		margin-left: 20px;
+		margin-left: calc(37.5% - 27.5px + 40px);
+	}
+}
+
+@media (max-width: 767px) {
+	.o__modal__container .t__onboarding.is--1up .o__sequence .m__button {
+		width: calc(100% - 40px);
+		float: left;
+		margin-left: 20px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+	.o__modal__container .t__onboarding.is--2up {
+		overflow-y: scroll;
+		min-height: 100%;
+	}
+}
+
+@media (max-width: 767px) {
+	.o__modal__container .t__onboarding.is--2up {
+		overflow-y: scroll;
+		min-height: 100%;
+	}
+}
+
+@media (min-width: 1441px) {
+	.o__modal__container .t__onboarding.is--2up>.m__copy {
+		width: calc(66.66667% - 50px);
+		float: left;
+		margin-left: 30px;
+		margin-left: calc(16.66667% - 35px + 60px);
+	}
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+	.o__modal__container .t__onboarding.is--2up>.m__copy {
+		width: calc(66.66667% - 33.33333px);
+		float: left;
+		margin-left: 20px;
+		margin-left: calc(16.66667% - 23.33333px + 40px);
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+	.o__modal__container .t__onboarding.is--2up>.m__copy {
+		width: calc(100% - 40px);
+		float: left;
+		margin-left: 20px;
+	}
+}
+
+@media (max-width: 767px) {
+	.o__modal__container .t__onboarding.is--2up>.m__copy {
+		width: calc(100% - 40px);
+		float: left;
+		margin-left: 20px;
+	}
+}
+
+.o__modal__container .t__onboarding.is--2up.is--center .o__install {
+	margin-top: 70px;
+	height: 240px;
+}
+
+@media (min-width: 1441px) {
+	.o__modal__container .t__onboarding.is--2up .o__grid__container>.m__copy {
+		width: calc(66.66667% - 50px);
+		float: left;
+		margin-left: 30px;
+		margin-left: calc(16.66667% - 35px + 60px);
+	}
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+	.o__modal__container .t__onboarding.is--2up .o__grid__container>.m__copy {
+		width: calc(66.66667% - 33.33333px);
+		float: left;
+		margin-left: 20px;
+		margin-left: calc(16.66667% - 23.33333px + 40px);
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+	.o__modal__container .t__onboarding.is--2up .o__grid__container>.m__copy {
+		width: calc(100% - 40px);
+		float: left;
+		margin-left: 20px;
+	}
+}
+
+@media (max-width: 767px) {
+	.o__modal__container .t__onboarding.is--2up .o__grid__container>.m__copy {
+		width: calc(100% - 40px);
+		float: left;
+		margin-left: 20px;
+	}
+}
+
+@media (min-width: 1441px) {
+	.o__modal__container .t__onboarding.is--2up .o__install {
+		width: calc(33.33333% - 40px);
+		float: left;
+		margin-left: 30px;
+		margin-left: calc(8.33333% - 32.5px + 60px);
+	}
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+	.o__modal__container .t__onboarding.is--2up .o__install {
+		width: calc(33.33333% - 26.66667px);
+		float: left;
+		margin-left: 20px;
+		margin-left: calc(8.33333% - 21.66667px + 40px);
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+	.o__modal__container .t__onboarding.is--2up .o__install {
+		width: calc(50% - 30px);
+		float: left;
+		margin-left: 20px;
+		margin-left: calc(25% - 25px + 40px);
+	}
+}
+
+@media (max-width: 767px) {
+	.o__modal__container .t__onboarding.is--2up .o__install {
+		width: calc(100% - 40px);
+		float: left;
+		margin-left: 20px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+	.o__modal__container .t__onboarding.is--2up .o__install {
+		margin-bottom: 40px;
+	}
+}
+
+@media (max-width: 767px) {
+	.o__modal__container .t__onboarding.is--2up .o__install {
+		margin-bottom: 40px;
+	}
+}
+
+@media (min-width: 1441px) {
+	.o__modal__container .t__onboarding.is--2up .o__install+.o__install {
+		width: calc(33.33333% - 40px);
+		float: left;
+		margin-left: 30px;
+		margin-left: calc(16.66667% - 35px + 60px);
+	}
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+	.o__modal__container .t__onboarding.is--2up .o__install+.o__install {
+		width: calc(33.33333% - 26.66667px);
+		float: left;
+		margin-left: 20px;
+		margin-left: calc(16.66667% - 23.33333px + 40px);
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+	.o__modal__container .t__onboarding.is--2up .o__install+.o__install {
+		width: calc(50% - 30px);
+		float: left;
+		margin-left: 20px;
+		margin-left: calc(25% - 25px + 40px);
+	}
+}
+
+@media (max-width: 767px) {
+	.o__modal__container .t__onboarding.is--2up .o__install+.o__install {
+		width: calc(100% - 40px);
+		float: left;
+		margin-left: 20px;
+	}
+}
+
+@media (max-width: 767px) {
+	.o__modal__container .t__onboarding.is--2up .o__install+.o__install {
+		margin-bottom: 100px;
+	}
+}
+
+.t__onboarding .m__copy .a__second__headline {
+	font-family: "Source Sans Pro Regular", sans-serif;
+}
+
+.t__onboarding .m__copy .a__second__headline .a__status__icon {
+	transform: translateX(-10px) translateY(5px);
+}
+
+.t__onboarding .m__copy .a__first__headline {
+	font-family: "Source Sans Pro Regular", sans-serif;
+}
+
+@media (max-width: 767px) {
+	.t__onboarding .m__copy .a__first__headline {
+		font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+		font-size: 1.5em;
+		font-weight: 600;
+	}
+}
+
+.t__onboarding .m__copy .a__button {
+	margin-top: 20px;
+}
+
+.o__subscribe .m__copy+.m__button,
+.o__sequence .m__copy+.m__button {
+	margin-top: 50px;
+}
+
+.o__subscribe .m__copy .m__icon>*,
+.o__sequence .m__copy .m__icon>* {
+	margin: 0 auto;
+}
+
+.o__subscribe .m__copy .m__icon .a__norton__logo__icon,
+.o__sequence .m__copy .m__icon .a__norton__logo__icon {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
+
+.o__subscribe .m__copy .a__first__headline,
+.o__sequence .m__copy .a__first__headline {
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+.o__subscribe .m__copy .a__primary__paragraph,
+.o__sequence .m__copy .a__primary__paragraph {
+	margin-top: 20px;
+}
+
+.o__subscribe .m__copy .a__link,
+.o__sequence .m__copy .a__link {
+	margin-top: 40px;
+}
+
+.o__subscribe .m__copy .nor-input,
+.o__sequence .m__copy .nor-input {
+	text-align: left;
+}
+
+.o__subscribe .m__copy .nor-input .m__input__label,
+.o__sequence .m__copy .nor-input .m__input__label {
+	margin-top: 0;
+}
+
+.o__subscribe .m__copy .nor-input+.a__primary__paragraph,
+.o__sequence .m__copy .nor-input+.a__primary__paragraph {
+	text-align: left;
+}
+
+.o__sequence .m__copy+.m__button {
+	margin-top: 30px;
+}
+
+.o__sequence .m__copy .m__icon {
+	height: 240px;
+	position: relative;
+}
+
+.o__sequence .m__copy .m__icon .a__norton__ring__atom__icon {
+	opacity: 1;
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	transform: translateX(-50%);
+	overflow: visible;
+}
+
+.o__sequence .m__copy .m__icon .a__norton__logo__icon {
+	transform: translateX(-53%) translateY(-24px);
+}
+
+@media (max-width: 767px) {
+	.o__sequence .m__copy .m__icon {
+		transform: scale(0.8) translateY(21%);
+		margin-top: -60px;
+	}
+}
+
+.o__sequence .m__copy .a__link {
+	margin-top: 20px;
+}
+
+@media (max-width: 767px) {
+	.o__sequence .a__primary__button {
+		display: table;
+		margin: 0 auto;
+	}
+}
+
+.o__install {
+	position: relative;
+}
+
+.o__install .m__icon {
+	margin-bottom: 25px;
+}
+
+.o__install .m__icon>* {
+	margin: 0 auto;
+}
+
+.o__install .m__icon+.a__primary__paragraph {
+	text-transform: uppercase;
+	font-size: 1.5em;
+	cursor: pointer;
+}
+
+.o__install .m__icon+.a__primary__paragraph .a__default__cta {
+	transition: opacity 500ms cubic-bezier(0.19, 1, 0.22, 1);
+	position: relative;
+	display: block;
+	opacity: 1;
+	top: 45px;
+}
+
+.o__install .m__icon+.a__primary__paragraph .a__hover__cta {
+	transition: opacity 500ms cubic-bezier(0.19, 1, 0.22, 1);
+	display: block;
+	top: 55px;
+	opacity: 0;
+}
+
+.o__install .m__icon+.a__primary__paragraph+.a__secondary__paragraph {
+	margin-top: 5px;
+}
+
+.o__install .m__icon .a__download__icon,
+.o__install .m__icon .a__product__key__icon {
+	position: relative;
+	z-index: 100;
+}
+
+.o__install .m__icon .a__norton__ring__atom__icon {
+	opacity: 0;
+	position: absolute;
+	top: -59px;
+	left: 50%;
+	transform: translateX(-50%);
+	cursor: pointer;
+}
+
+@keyframes rotation {
+	from {
+		transform: rotate(0deg) translateX(-50%);
+	}
+	to {
+		transform: rotate(359deg) translateX(-50%);
+	}
+}
+
+.o__install+.m__copy .a__link {
+	margin-top: 40px;
+}
+
+.o__install .m__copy .a__link {
+	font-size: 0.875em;
+}
+
+.o__install .m__copy .a__primary__paragraph+.a__link {
+	margin-top: 30px;
+}
+
+.o__install .m__copy .a__secondary__paragraph+.a__link {
+	margin-top: 10px;
+}
+
+.o__install .m__copy:hover .a__norton__ring__atom__icon {
+	opacity: 1;
+}
+
+.o__install .m__copy:hover .a__hover__cta {
+	opacity: 1;
+	top: 0;
+}
+
+.o__install .m__copy:hover .a__default__cta {
+	position: relative;
+	opacity: 0;
+	top: 45px;
+}
+
+.o__install+.o__install .m__copy .a__norton__ring__atom__icon {
+	display: block;
+	margin-left: -10px;
+}
+
+.o__install .m__button {
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+@media (max-width: 767px) {
+	.is--native.is--edge .o__modal__container .t__onboarding.is--2up .o__sequence {
+		padding-bottom: 320px;
+	}
+}
+
+.is--native .o__modal__container .m__modal__content {
+	height: 100%;
+}
+
+.is--native .o__modal__container .m__modal__content>div {
+	height: 100%;
+}
+
+.is--native .o__modal__container .o__view__container {
+	display: flex;
+	align-items: center;
+	min-height: 100%;
+}
+
+.is--native .o__modal__container .o__grid__container {
+	margin-top: initial;
+	top: initial;
+	padding-top: 0px;
+	overflow-x: hidden;
+	overflow-y: visible;
+}
+
+@media (max-width: 767px) {
+	.is--native .o__modal__container .o__grid__container {
+		width: 100%;
+		left: 35%;
+		overflow-x: hidden;
+	}
+}
+
+.is--native .o__modal__container .t__onboarding.is--2up {
+	height: auto;
+	overflow: visible;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+	.is--native .o__modal__container .t__onboarding.is--2up {
+		min-height: auto;
+		padding-bottom: 50px;
+	}
+}
+
+@media (max-width: 767px) {
+	.is--native .o__modal__container .t__onboarding.is--2up {
+		min-height: auto;
+		height: auto;
+		padding-bottom: 50px;
+	}
+}
+
+.is--native .o__modal__container .t__onboarding.is--2up .o__sequence {
+	display: flex;
+	align-items: center;
+}
+
+@media (max-width: 767px) {
+	.is--native .o__modal__container .t__onboarding.is--2up .o__sequence {
+		display: block;
+		align-items: none;
+	}
+}
+
+.is--native .o__modal__container .t__onboarding.is--2up .o__sequence .m__icon {
+	height: 100%;
+	position: relative;
+}
+
+@media (max-width: 767px) {
+	.is--native .o__modal__container .t__onboarding.is--2up .o__sequence {
+		padding-bottom: 50px;
+	}
+}
+
+.is--native .o__modal__container .t__onboarding.is--2up .m__copy:first-child {
+	height: 100%;
+	position: relative;
+}
+
+@media (max-width: 767px) {
+	.is--native .o__modal__container .t__onboarding.is--2up .m__copy:first-child {
+		height: auto;
+	}
+}
+
+.is--native .o__modal__container .t__onboarding.is--2up .m__copy:first-child .m__icon {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-4px);
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+	.is--native .o__modal__container .t__onboarding.is--2up .m__copy:first-child .m__icon {
+		transform: translateX(-50%) translateY(0%) scale(0.8);
+	}
+}
+
+@media (max-width: 767px) {
+	.is--native .o__modal__container .t__onboarding.is--2up .m__copy:first-child .m__icon {
+		top: 0;
+		transform: translateX(-50%) translateY(30px);
+	}
+}
+
+.is--native .o__modal__container .t__onboarding.is--2up .m__copy+.m__copy {
+	position: relative;
+	top: 50%;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+	.is--native .o__modal__container .t__onboarding.is--2up .m__copy+.m__copy {
+		transform: translateX(5%) translateY(0%);
+	}
+}
+
+@media (max-width: 767px) {
+	.is--native .o__modal__container .t__onboarding.is--2up .m__copy+.m__copy {
+		top: 20px;
+		transform: initial;
+	}
+}
+
+.is--native .o__modal__container .t__onboarding.is--2up .o__sequence .m__copy {
+	width: calc(33.33333% - 26.66667px);
+	float: left;
+	margin-left: 20px;
+}
+
+@media (max-width: 767px) {
+	.is--native .o__modal__container .t__onboarding.is--2up .o__sequence .m__copy {
+		width: calc(100% - 40px);
+		float: left;
+		margin-left: 20px;
+	}
+}
+
+.is--native .o__modal__container .t__onboarding.is--2up .o__sequence .m__copy .m__icon {
+	width: 248px;
+	height: 248px;
+	position: relative;
+}
+
+.is--native .o__modal__container .t__onboarding.is--2up .o__sequence .m__copy .m__icon>* {
+	margin: initial;
+}
+
+.is--native .o__modal__container .t__onboarding.is--2up .o__sequence .m__copy .m__icon .a__norton__ring__atom__icon {
+	opacity: 1;
+	position: relative;
+	top: 0px;
+	left: 0px;
+	transform: initial;
+	overflow: visible;
+}
+
+.is--native .o__modal__container .t__onboarding.is--2up .o__sequence .m__copy .m__icon .a__norton__logo__icon {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+
+.is--native .o__modal__container .t__onboarding.is--2up .o__sequence .m__copy .m__icon .a__svg__icon {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.is--native .o__modal__container .t__onboarding.is--2up .o__sequence .m__copy+.m__copy {
+	width: calc(66.66667% - 33.33333px);
+	float: left;
+	margin-left: 20px;
+}
+
+@media (max-width: 767px) {
+	.is--native .o__modal__container .t__onboarding.is--2up .o__sequence .m__copy+.m__copy {
+		width: calc(100% - 40px);
+		float: left;
+		margin-left: 20px;
+	}
+}
+
+.is--native .o__modal__container .t__onboarding.is--2up .o__sequence .m__copy+.m__copy .m__button {
+	margin-top: 36px;
+	width: calc(33.33333% - 26.66667px);
+	float: left;
+	margin-left: 20px;
+}
+
+.is--native .o__modal__container .t__onboarding.is--2up .o__sequence .m__copy+.m__copy .m__button+.m__button {
+	width: auto;
+	float: left;
+	margin-left: 20px;
+}
+
+.is--native .is--aligned--top .o__modal__container .t__onboarding .o__sequence {
+	display: block;
+}
+
+.is--native .is--aligned--top .o__modal__container .t__onboarding .o__sequence .m__copy:first-child .m__icon {
+	top: -15px;
+}
+
+body.no--scroll {
+	overflow-y: hidden;
+}
+
+.is--native .o__panel .o__section {
+	margin-top: 30px;
+	padding-left: 30px;
+	padding-right: 30px;
+	margin-bottom: 20px;
+}
+
+.is--native .o__panel .o__section.no--top--margin {
+	margin-top: 0px;
+}
+
+.is--native .o__panel .o__section .m__section__header {
+	height: 30px;
+	margin-bottom: 36px;
+}
+
+.is--native .o__panel .o__section .m__section__header .a__section__heading,
+.is--native .o__panel .o__section .m__section__header .a__section__subheading {
+	font-family: "Source Sans Pro Regular", sans-serif;
+	font-size: 1.875em;
+	font-weight: 400;
+	color: #808080;
+	width: initial;
+	float: left;
+}
+
+.is--native .o__panel .o__section .m__section__header .a__section__heading.is--button,
+.is--native .o__panel .o__section .m__section__header .a__section__subheading.is--button {
+	cursor: pointer;
+}
+
+.is--native .o__panel .o__section .m__section__header .a__breadcrumb__divider {
+	float: left;
+	transform: translateX(4px) translateY(15px);
+}
+
+.is--native .o__panel .o__section .m__section__header .a__section__heading.is--child {
+	color: #B0B0B0;
+}
+
+.is--native .o__panel .o__section .m__section__header .a__section__subheading {
+	color: #808080;
+	transform: translateX(8px) translateY(2px);
+	margin-left: 0px;
+}
+
+.is--native .o__panel .o__section .m__section__footer {
+	height: 30px;
+}
+
+.is--native .o__panel .o__section .m__section__footer .a__button {
+	min-width: 130px;
+	float: right;
+}
+
+.is--native .o__panel .o__section.is--single {
+	height: calc(100% - 50px);
+}
+
+.is--native .o__panel .o__section.is--single .m__section__content {
+	height: calc(100% - 50px - 30px - 36px);
+}
+
+.m__list {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	-webkit-padding-start: 0px;
+	-webkit-margin-before: 0px;
+	-webkit-margin-after: 0px;
+	border-top: 1px solid #f2f2f2;
+}
+
+.m__list.no--top--border {
+	border-top: initial;
+}
+
+.m__list>div,
+.m__list>li,
+.m__list>.m__item {
+	width: 100%;
+	border-bottom: 1px solid #f2f2f2;
+	padding-top: 10px;
+	padding-bottom: 12px;
+	float: left;
+	clear: both;
+}
+
+.m__list>div .a__item__label,
+.m__list>li .a__item__label,
+.m__list>.m__item .a__item__label {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+	font-size: 1em;
+	color: #808080;
+	position: relative;
+	float: left;
+}
+
+.m__list>div .a__item__label.has--indent,
+.m__list>li .a__item__label.has--indent,
+.m__list>.m__item .a__item__label.has--indent {
+	padding-left: 26px;
+}
+
+.m__list>div .a__item__label>span,
+.m__list>li .a__item__label>span,
+.m__list>.m__item .a__item__label>span {
+	display: inline-block;
+	padding-right: 6px;
+}
+
+.m__list>div .a__item__label>span[nor-help],
+.m__list>li .a__item__label>span[nor-help],
+.m__list>.m__item .a__item__label>span[nor-help] {
+	transform: translateY(4px);
+}
+
+.m__list>div .a__item__label>span[nor-help].is--active,
+.m__list>li .a__item__label>span[nor-help].is--active,
+.m__list>.m__item .a__item__label>span[nor-help].is--active {
+	position: relative;
+}
+
+.m__list>div .m__item__footer,
+.m__list>li .m__item__footer,
+.m__list>.m__item .m__item__footer {
+	position: relative;
+	float: right;
+}
+
+.m__list>div .m__item__footer>[nor-toggle],
+.m__list>li .m__item__footer>[nor-toggle],
+.m__list>.m__item .m__item__footer>[nor-toggle] {
+	padding: 0px 0px;
+}
+
+.m__copy .is--danger {
+	color: #c61d13;
+}
+
+.m__copy .is--secure,
+.m__copy .is--vpn {
+	color: #1c851c;
+}
+
+.m__copy .is--alert {
+	color: #da3c07;
+}
+
+.m__copy .has--weak--encrypt {
+	color: #da3c07;
+}
+
+.m__copy .has--weak--password {
+	color: #da3c07;
+}
+
+.m__copy .is--default {
+	color: #757575;
+}
+
+.m__copy .is--setup {
+	color: #757575;
+}
+
+.m__copy .is--semi--bold {
+	font-family: "Source Sans Pro Semi Bold", sans-serif;
+}
+
+.m__copy .is--bold {
+	font-family: "Source Sans Pro Bold", sans-serif;
+}
+
+.m__copy .is--scanning {
+	color: #36ade1;
+}
+
+.m__copy .is--large {
+	font-size: 1.5em;
+	font-family: "Source Sans Pro Semi Bold", sans-serif;
+}
+
+.m__copy .is--xl {
+	font-size: 1.875em;
+}
+
+.m__copy.is--center {
+	text-align: center;
+}
+
+.m__copy .m__item.is--right {
+	text-align: right;
+}
+
+.m__copy .m__item>.a__icon {
+	margin: 0 auto;
+}
+
+.m__copy .m__item .a__item__label {
+	font-family: "Source Sans Pro Regular", sans-serif;
+}
+
+.m__copy .m__item .a__item__name {
+	font-family: "Source Sans Pro Regular", sans-serif;
+}
+
+.m__copy .m__item .a__item__desc {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+	font-size: 1em;
+	margin-top: 3px;
+}
+
+@media (min-width: 1441px) {
+	.m__copy .m__item .a__item__desc {
+		margin-top: 10px;
+	}
+}
+
+.m__copy .m__item .a__item__desc+.a__button {
+	margin-top: 30px;
+}
+
+.m__copy .a__trademark {
+	position: relative;
+	margin-right: 16px;
+}
+
+.m__copy .a__trademark::before {
+	content: "TM";
+	position: absolute;
+	right: -15px;
+	top: 0px;
+	font-size: 0.5em;
+}
+
+.is--native .o__section .m__section__header {
+	display: inline-block;
+	margin-bottom: 5px;
+	margin-left: -20px;
+	margin-right: -20px;
+	width: calc(100% + 40px);
+}
+
+.is--native .o__section .m__section__header .a__section__heading {
+	margin: 0;
+	font-family: "Source Sans Pro Semi Bold", sans-serif;
+	font-size: 1.5em;
+	text-transform: capitalize;
+	color: #2c3b4b;
+	width: calc(83.33333% - 36.66667px);
+	float: left;
+	margin-left: 20px;
+}
+
+.is--native .o__section .m__section__header .a__section__heading::after {
+	display: none;
+}
+
+.is--native .o__section .m__section__header .a__section__subheading {
+	font-size: 1em;
+	font-family: "Source Sans Pro Regular", sans-serif;
+	color: #2c3b4b;
+	width: calc(83.33333% - 36.66667px);
+	float: left;
+	margin-left: 20px;
+}
+
+.is--native .o__section .m__section__header .a__section__subheading+.a__section__heading {
+	margin-top: -5px;
+}
+
+.is--native .o__section .m__section__header .m__toggle {
+	margin: -8px 0px;
+	width: calc(16.66667% - 23.33333px);
+	float: left;
+	margin-left: 20px;
+}
+
+.is--native .o__section .m__section__header .m__toggle form {
+	float: right;
+}
+
+.is--native .o__section.t__security__section .a__item__desc {
+	width: 300px;
+}
+
+.is--native .o__section .m__item {
+	margin-bottom: 10px;
+}
+
+.is--native .o__section .m__item>.a__browser__icon {
+	float: left;
+	margin-right: 8px;
+}
+
+.is--native .o__section .m__item>.a__browser__icon+.a__item__label {
+	font-size: 1.25em;
+	margin-bottom: 0;
+}
+
+.is--native .o__section .m__item .a__item__label {
+	color: #2c3b4b;
+}
+
+.is--native .o__section .m__item .a__item__label>span {
+	display: inline-block;
+	margin-bottom: -6px;
+}
+
+.is--native .o__section .m__item .a__item__label .a__status__icon {
+	display: inline-block;
+}
+
+.is--native .o__section .m__item .a__item__name {
+	line-height: 1.13;
+}
+
+@media (min-width: 1441px) {
+	.is--native .o__section .m__item .a__item__name {
+		margin: 10px 0;
+	}
+}
+
+.is--native .o__section .m__item .a__item__desc {
+	color: #666666;
+	line-height: 1.25;
+}
+
+@media (min-width: 1441px) {
+	.is--native .o__section .m__item {
+		margin-bottom: 30px;
+	}
+}
+
+.is--native .o__section .m__item .m__item {
+	margin-bottom: 10px;
+}
+
+.is--native .o__section .m__item .m__item .a__item__label,
+.is--native .o__section .m__item .m__item .a__item__name {
+	font-weight: bold;
+}
+
+.is--native .o__section .m__item .m__item .a__item__label {
+	color: #2c3b4b;
+}
+
+.is--native .o__section .m__item .m__item .a__item__label>span {
+	display: inline-block;
+	margin-bottom: -6px;
+}
+
+.is--native .o__section .m__item .m__item .a__item__label .a__status__icon {
+	display: inline-block;
+}
+
+.is--native .o__section .m__item .m__item .a__item__name {
+	line-height: 1.13;
+}
+
+@media (min-width: 1441px) {
+	.is--native .o__section .m__item .m__item .a__item__name {
+		margin: 10px 0;
+	}
+}
+
+.is--native .o__section .m__item .m__item .a__item__desc {
+	color: #666666;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+	line-height: 1.25;
+}
+
+@media (min-width: 1441px) {
+	.is--native .o__section .m__item .m__item {
+		margin-bottom: 30px;
+	}
+}
+
+.is--native .o__section .m__item .m__row.has--form .m__input__actual {
+	margin-top: 5px;
+}
+
+.is--native .o__section .m__item .m__row.has--form .m__item {
+	margin-bottom: 0;
+}
+
+@media (min-width: 1441px) {
+	.is--native .o__section .m__item .m__row.has--form .m__item {
+		margin-bottom: 30px;
+	}
+}
+
+.is--native .o__section .m__item .m__row.has--form .a__item__desc {
+	padding-top: 8px;
+}
+
+@media (min-width: 1441px) {
+	.is--native .o__section .m__item .m__row.has--form .a__item__desc {
+		padding-top: 15px;
+	}
+}
+
+@media (min-width: 1441px) {
+	.is--native .o__section .m__item {
+		margin-top: 30px;
+	}
+}
+
+.is--native .a__third__headline {
+	float: left;
+}
+
+.is--native .m__setting__icons {
+	float: left;
+	height: 38px;
+	margin-left: 12px;
+}
+
+.is--native .m__setting__icons::before {
+	content: '';
+	width: 1px;
+	height: 24px;
+	background: #E0E1DD;
+	display: block;
+	position: absolute;
+	margin-top: 8px;
+	margin-right: 10px;
+}
+
+.is--native .m__setting__icons .a__icon {
+	float: left;
+	margin-left: 10px;
+	margin-top: 8px;
+}
+
+@media (min-width: 1441px) {
+	.is--native .m__setting__icons {
+		transform: translateY(2px);
+	}
+}
+
+hr {
+	display: block;
+	width: 100%;
+	height: 2px;
+	background: #e5e4e4;
+	background: linear-gradient(to bottom, #e2e2e2 0%, #e2e2e2 49%, #ffffff 50%, #ffffff 100%);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	margin-top: 8px;
+	border: none;
+}
+
+.has--sequence--background {
+	visibility: hidden;
+	width: 100%;
+	background: rgba(36, 46, 57, 0.65);
+	height: 100%;
+	position: fixed;
+	top: 0;
+	opacity: 0;
+	transition: opacity 2s cubic-bezier(0.19, 1, 0.22, 1);
+	transition-delay: 0;
+	z-index: 200;
+}
+
+.has--sequence--background.is--active {
+	visibility: visible;
+	transition-delay: 300ms;
+	opacity: 1;
+}
+
+.is--rtl .m__setting__icons .a__help__icon {
+	transform: scaleX(-1);
+}
+
+.is--rtl .m__section__header .a__third__headline {
+	transform: scaleX(-1);
+}
+
+@media (min-width: 1441px) {
+	.is--rtl .o__section .m__item>.a__browser__icon {
+		transform: scale(-1);
+	}
+}
+
+.is--rtl .a__section__heading {
+	transform: scaleX(-1);
+	text-align: right;
+}
+
+.is--rtl .a__section__heading::after {
+	margin-left: 30px;
+}
+
+.is--rtl .m__row.is--3col .a__item__label,
+.is--rtl .m__row.is--3col .a__item__desc {
+	display: table;
+}
+
+@media (min-width: 1441px) {
+	.is--rtl .m__row.is--3col .a__item__label,
+	.is--rtl .m__row.is--3col .a__item__desc {
+		padding-right: 20px;
+	}
+}
+
+.o__notification__card {
+	width: 100%;
+	opacity: 0;
+	transition: opacity 1s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.o__notification__card:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.o__notification__card .m__notification {
+	padding: 15px;
+	border-radius: 6px;
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.11);
+	background-color: #f4f3f3;
+	border: solid 1px #e5e4e4;
+	color: #8A8A8A;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+	font-size: 0.875em;
+}
+
+.o__notification__card .a__link,
+.o__notification__card a:link,
+.o__notification__card a:visited {
+	color: #0089C6;
+	text-transform: uppercase;
+	font-size: 0.8125em;
+	font-weight: 600;
+}
+
+.o__notification__card .a__message {
+	-webkit-margin-before: 0em;
+}
+
+.o__notification__card.is--center {
+	text-align: center;
+}
+
+.o__notification__card.is--inactive {
+	opacity: 0;
+}
+
+.o__notification__card.is--active {
+	opacity: 1;
+}

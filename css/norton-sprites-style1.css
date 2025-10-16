@@ -1,0 +1,263 @@
+.sso_responsive_img .sso_responsive_img_inner {
+	width: 100%;
+	padding-bottom: 100%;
+	background-repeat: no-repeat
+}
+
+.no_svg .sso_responsive_img .sso_responsive_img_inner {
+	width: auto;
+	padding-bottom: inherit
+}
+
+.sso_img_email_validation_required .sso_responsive_img_inner {
+	background-image: url('../img/email_validation_required.html')
+}
+
+.no_svg .sso_img_email_validation_required .sso_responsive_img_inner {
+	background: url('../img/main_sprites_idp.html') no-repeat -265px -265px;
+	width: 250px;
+	height: 250px
+}
+
+.no_svg .sso_img_email_validation_required_tight1 .sso_responsive_img_inner {
+	background: url('../img/main_sprites_idp.html') no-repeat -310px -332px;
+	width: 160px;
+	height: 115px
+}
+
+.sso_img_email_validated .sso_responsive_img_inner {
+	background-image: url('../img/email_validated.html')
+}
+
+.no_svg .sso_img_email_validated .sso_responsive_img_inner {
+	background: url('../img/main_sprites_idp.html') no-repeat -525px -265px;
+	width: 250px;
+	height: 250px
+}
+
+.no_svg .sso_img_email_validated_tight1 .sso_responsive_img_inner {
+	background: url('../img/main_sprites_idp.html') no-repeat -570px -332px;
+	width: 160px;
+	height: 115px
+}
+
+.sprite1_symantec_logo1 .sso_responsive_img_inner {
+	padding: 0;
+	background: url("../img/main_sprites.html") no-repeat 0 -80px;
+	height: 20px;
+	width: 80px
+}
+
+.no_svg .sprite1_symantec_logo1 .sso_responsive_img_inner {
+	background: url("../img/main_sprites.html") no-repeat 0 -80px;
+	height: 20px;
+	width: 80px
+}
+
+.sprite1_symantec_logo2 .sso_responsive_img_inner {
+	padding: 0;
+	background: url("../img/main_sprites.html") no-repeat -90px -80px;
+	height: 20px;
+	width: 80px;
+	padding-bottom: 0
+}
+
+.no_svg .sprite1_symantec_logo2 .sso_responsive_img_inner {
+	background: url("../img/main_sprites.html") no-repeat -90px -80px;
+	height: 20px;
+	width: 80px;
+	padding-bottom: 0
+}
+
+.sprite1_user_profile .sso_responsive_img_inner,
+.no_svg .sprite1_user_profile .sso_responsive_img_inner {
+	background: url("../img/main_sprites.html") no-repeat 0 -118px;
+	height: 30px;
+	width: 30px
+}
+
+.sprite1_setting_gear1 .sso_responsive_img_inner,
+.no_svg .sprite1_setting_gear1 .sso_responsive_img_inner {
+	background: url("../img/main_sprites.html") no-repeat 0 -149px;
+	height: 20px;
+	width: 20px
+}
+
+.sprite1_setting_gear2 .sso_responsive_img_inner,
+.no_svg .sprite1_setting_gear2 .sso_responsive_img_inner {
+	background: url("../img/main_sprites.html") no-repeat -20px -149px;
+	height: 20px;
+	width: 20px
+}
+
+.sprite1_setting_key1 .sso_responsive_img_inner,
+.no_svg .sprite1_setting_key1 .sso_responsive_img_inner {
+	background: url("../img/main_sprites.html") no-repeat 0 -170px;
+	height: 20px;
+	width: 20px
+}
+
+.sprite1_setting_key2 .sso_responsive_img_inner,
+.no_svg .sprite1_setting_key2 .sso_responsive_img_inner {
+	background: url("../img/main_sprites.html") no-repeat -20px -170px;
+	height: 20px;
+	width: 20px
+}
+
+.sprite1_norton_logo .sso_responsive_img_inner {
+	padding: 0;
+	background: url("../img/main_sprites.html") no-repeat -245px -5px;
+	height: 25px;
+	width: 70px
+}
+
+.no_svg .sprite1_norton_logo .sso_responsive_img_inner {
+	background: url("../img/main_sprites.html") no-repeat -245px -5px;
+	height: 25px;
+	width: 70px
+}
+
+.sprite1_setting_email_and_password .sso_responsive_img_inner,
+.no_svg .sprite1_setting_email_and_password .sso_responsive_img_inner {
+	background: url("../img/main_sprites.html") no-repeat -403px -82px;
+	height: 24px;
+	width: 24px
+}
+
+.sprite1_setting_personal_info .sso_responsive_img_inner,
+.no_svg .sprite1_setting_personal_info .sso_responsive_img_inner {
+	background: url("../img/main_sprites.html") no-repeat -427px -82px;
+	height: 24px;
+	width: 24px
+}
+
+.sprite1_setting_security .sso_responsive_img_inner,
+.no_svg .sprite1_setting_security .sso_responsive_img_inner {
+	background: url("../img/main_sprites.html") no-repeat -451px -82px;
+	height: 24px;
+	width: 24px
+}
+
+.sprite1_close_button .sso_responsive_img_inner,
+.no_svg .sprite1_close_button .sso_responsive_img_inner {
+	background: url("../img/main_sprites.html") no-repeat -403px -106px;
+	height: 12px;
+	width: 12px
+}
+
+.sprite1_close_button:hover .sso_responsive_img_inner,
+.no_svg .sprite1_close_button:hover .sso_responsive_img_inner {
+	background: url("../img/main_sprites.html") no-repeat -415px -106px;
+	height: 12px;
+	width: 12px
+}
+
+.sprite1_close_button:active .sso_responsive_img_inner,
+.no_svg .sprite1_close_button:active .sso_responsive_img_inner {
+	background: url("../img/main_sprites.html") no-repeat -427px -106px;
+	height: 12px;
+	width: 12px
+}
+
+.sprite1_status_bad .sso_responsive_img_inner,
+.no_svg .sprite1_status_bad .sso_responsive_img_inner {
+	background: url("../img/main_sprites.html") no-repeat -40px -149px;
+	height: 20px;
+	width: 20px
+}
+
+.sprite1_status_good .sso_responsive_img_inner,
+.no_svg .sprite1_status_good .sso_responsive_img_inner {
+	background: url("../img/main_sprites.html") no-repeat -60px -149px;
+	height: 20px;
+	width: 20px
+}
+
+.sprite1_status_unknown .sso_responsive_img_inner,
+.no_svg .sprite1_status_unknown .sso_responsive_img_inner {
+	background: url("../img/main_sprites.html") no-repeat -80px -149px;
+	height: 20px;
+	width: 20px
+}
+
+@media (min-width:768px) {
+	.sprite1_norton_logo .sso_responsive_img_inner {
+		padding: 0;
+		background: url("../img/main_sprites.html") no-repeat -140px -5px;
+		height: 35px;
+		width: 90px
+	}
+	.no_svg .sprite1_norton_logo .sso_responsive_img_inner {
+		background: url("../img/main_sprites.html") no-repeat -140px -5px;
+		height: 35px;
+		width: 90px
+	}
+}
+
+@media (min-width:992px) {
+	.sprite1_norton_logo .sso_responsive_img_inner {
+		padding: 0;
+		background: url("../img/main_sprites.html") no-repeat -10px -5px;
+		height: 50px;
+		width: 120px
+	}
+	.no_svg .sprite1_norton_logo .sso_responsive_img_inner {
+		background: url("../img/main_sprites.html") no-repeat -10px -5px;
+		height: 50px;
+		width: 120px
+	}
+	.sprite1_setting_email_and_password .sso_responsive_img_inner,
+	.no_svg .sprite1_setting_email_and_password .sso_responsive_img_inner {
+		background: url("../img/main_sprites.html") no-repeat -403px -10px;
+		height: 48px;
+		width: 48px
+	}
+	.sprite1_setting_personal_info .sso_responsive_img_inner,
+	.no_svg .sprite1_setting_personal_info .sso_responsive_img_inner {
+		background: url("../img/main_sprites.html") no-repeat -451px -10px;
+		height: 48px;
+		width: 48px
+	}
+	.sprite1_setting_security .sso_responsive_img_inner,
+	.no_svg .sprite1_setting_security .sso_responsive_img_inner {
+		background: url("../img/main_sprites.html") no-repeat -499px -10px;
+		height: 48px;
+		width: 48px
+	}
+	.sprite1_close_button .sso_responsive_img_inner,
+	.no_svg .sprite1_close_button .sso_responsive_img_inner {
+		background: url("../img/main_sprites.html") no-repeat -403px -58px;
+		height: 24px;
+		width: 24px
+	}
+	.sprite1_close_button:hover .sso_responsive_img_inner,
+	.no_svg .sprite1_close_button:hover .sso_responsive_img_inner {
+		background: url("../img/main_sprites.html") no-repeat -427px -58px;
+		height: 24px;
+		width: 24px
+	}
+	.sprite1_close_button:active .sso_responsive_img_inner,
+	.no_svg .sprite1_close_button:active .sso_responsive_img_inner {
+		background: url("../img/main_sprites.html") no-repeat -451px -58px;
+		height: 24px;
+		width: 24px
+	}
+	.sprite1_status_bad .sso_responsive_img_inner,
+	.no_svg .sprite1_status_bad .sso_responsive_img_inner {
+		background: url("../img/main_sprites.html") no-repeat 0 -189px;
+		height: 32px;
+		width: 32px
+	}
+	.sprite1_status_good .sso_responsive_img_inner,
+	.no_svg .sprite1_status_good .sso_responsive_img_inner {
+		background: url("../img/main_sprites.html") no-repeat -32px -189px;
+		height: 32px;
+		width: 32px
+	}
+	.sprite1_status_unknown .sso_responsive_img_inner,
+	.no_svg .sprite1_status_unknown .sso_responsive_img_inner {
+		background: url("../img/main_sprites.html") no-repeat -64px -189px;
+		height: 32px;
+		width: 32px
+	}
+}
